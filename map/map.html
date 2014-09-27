@@ -670,8 +670,10 @@ function createControls() {
   google.maps.event.addListener(searchBox, 'places_changed', placeschanged);
 }
 
+
+// places search
 var markers = [];
-var places = [];
+var places = []; 
 
 function removeplacemarkers() { 
   markers.forEach( function(m) { m.setMap(null); } );
