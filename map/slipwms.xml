@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE WMT_MS_Capabilities SYSTEM "https://earthbuilder.google.com/static/capabilities_1_1_1.dtd">
+<WMT_MS_Capabilities version="1.1.1">
+  <Service>
+    <Name>OGC:WMS</Name>
+    <Title>Google Maps Engine WMS Service</Title>
+    <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://mapsengine.google.com:443/09372590152434720789-00913315481290556980-4/wms/"/>
+  </Service>
+  <Capability>
+    <Request>
+      <GetCapabilities>
+        <Format>application/vnd.ogc.wms_xml</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://mapsengine.google.com:443/09372590152434720789-00913315481290556980-4/wms/"/>
+            </Get>
+          </HTTP>
+        </DCPType>
+      </GetCapabilities>
+      <GetMap>
+        <Format>image/png</Format>
+        <Format>image/jpeg</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://mapsengine.google.com:443/09372590152434720789-00913315481290556980-4/wms/"/>
+            </Get>
+          </HTTP>
+        </DCPType>
+      </GetMap>
+      <GetFeatureInfo>
+        <Format>text/html</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://mapsengine.google.com:443/09372590152434720789-00913315481290556980-4/wms/"/>
+            </Get>
+          </HTTP>
+        </DCPType>
+      </GetFeatureInfo>
+    </Request>
+    <Exception>
+      <Format>application/vnd.ogc.se_xml</Format>
+      <Format>application/vnd.ogc.se_inimage</Format>
+    </Exception>
+    <Layer queryable="0">
+      <Name>09372590152434720789-00913315481290556980-4</Name>
+      <Title>Locate</Title>
+      <Abstract>Locate is a revolutionary online tool that opens up a wealth of Western Australian location information from many different WA sources all provided in a single link for you. To learn more about Locate click &lt;a 
+
+href="http://slipfuture.landgate.wa.gov.au/Pages/LocateGettingStarted.aspx" target="_blank"&gt;here.&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;
+  &lt;a href="http://slipfuture.landgate.wa.gov.au/Pages/LocateHelpAndFAQs.aspx" target="_blank"&gt;Help &amp;amp; FAQs&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://slipfuture.landgate.wa.gov.au/Pages/LocateDataProviders.aspx" target="_blank"&gt;Data Providers&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://slipfuture.landgate.wa.gov.au/Pages/LocateTermsandConditions.aspx" target="_blank"&gt;Terms and Conditions&lt;/a&gt;&lt;br/&gt;
+&lt;br/&gt;
+&lt;img src="https://ngisslip-web.sharepoint.com/SiteImages/_w/SLIP_Locate_Logo_jpg.jpg" width="255" height="42"/&gt;&lt;/img&gt;</Abstract>
+      <Layer queryable="1">
+        <Name>09372590152434720789-14012378113425382551-4</Name>
+        <Title>Cadastre (Address) 1 of 2 20131011</Title>
+        <Abstract>The SCDB is an integrated database comprising of a number of datasets (layers)of digital spatial data, defining all Crown and Freehold land parcels within the State as well as subsidiary survey network control. Includes an integrated administrative boundaries dataset and a lodged layer containing recent surveys. This dataset uses the LAND_CAD_CUR_VIEW which attaches DLI?s address information to the polygon features. Spatially this layer is identical to the LAND_CAD_CUR_ALL table just with additional attribute information.
+&lt;p&gt;
+ Western Australian Land Information Authority (Landgate) 2013. Use of digital land information is subject to the following &lt;a href="http://www.landgate.wa.gov.au/corporate.nsf/web/copyright"&gt;Copyright&lt;/a&gt; and &lt;a href="http://www.landgate.wa.gov.au/corporate.nsf/web/disclaimer+of+liability"&gt;Disclaimer&lt;/a&gt;.&lt;/p&gt;</Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="96.8168171236918" miny="-35.18620560015069" maxx="129.00192884356503" maxy="-10.41379496143682"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-08771952186160109553-4</Name>
+        <Title>Cadastre (Address) 2 of 2 20131011</Title>
+        <Abstract>The SCDB is an integrated database comprising of a number of datasets (layers)of digital spatial data, defining all Crown and Freehold land parcels within the State as well as subsidiary survey network control. Includes an integrated administrative boundaries dataset and a lodged layer containing recent surveys. This dataset uses the LAND_CAD_CUR_VIEW which attaches DLI?s address information to the polygon features. Spatially this layer is identical to the LAND_CAD_CUR_ALL table just with additional attribute information.
+&lt;p&gt;
+ Western Australian Land Information Authority (Landgate) 2013. Use of digital land information is subject to the following &lt;a href="http://www.landgate.wa.gov.au/corporate.nsf/web/copyright"&gt;Copyright&lt;/a&gt; and &lt;a href="http://www.landgate.wa.gov.au/corporate.nsf/web/disclaimer+of+liability"&gt;Disclaimer&lt;/a&gt;.&lt;/p&gt;</Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="96.81694139937662" miny="-35.180887282568534" maxx="129.02063306056198" maxy="-10.412389861093423"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-04350450774928889938-4</Name>
+        <Title>Property Sales (Address) LGATE 20131023</Title>
+        <Abstract>Western Australia Property Sales Data. Landgate maintains records for all Registered Sales of property within Western Australia. If a property has sold recently, the registered sales information may take up to 6 weeks to be updated. 
+
+Coverage: Metropolitan area and most major country towns. Some rural addresses and country town addresses are not included.
+&lt;p&gt;
+ Western Australian Land Information Authority (Landgate) 2013. Use of digital land information is subject to the following &lt;a href="http://www.landgate.wa.gov.au/corporate.nsf/web/shrinkwrap+Licence"&gt;Licence&lt;/a&gt;. 
+&lt;/p&gt;</Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="96.8245652371719" miny="-35.0971469074111" maxx="128.97126946" maxy="-10.414740466"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-02344374277596842979-4</Name>
+        <Title>Landgate Imagery</Title>
+        <Abstract>The Landgate Imagery layer delivers a single state-wide imagery service utilising Landgate's collection of most recent and highest resolution aerial images. 
+&lt;p&gt;
+ Western Australian Land Information Authority (Landgate) 2013. Use of digital land information is subject to the following &lt;a href="http://www.landgate.wa.gov.au/corporate.nsf/web/shrinkwrap+Licence"&gt;Licence&lt;/a&gt;.
+&lt;/p&gt;</Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="112.89389893729815" miny="-35.24670203695928" maxx="129.32460245480866" maxy="-13.534365988980413"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-03226297444111804062-4</Name>
+        <Title>Perth CBD 1948</Title>
+        <Abstract>Raster layer</Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="115.817412428007" miny="-31.964836879741" maxx="115.899352928007" maxy="-31.941571879740994"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-10706694904618395472-4</Name>
+        <Title>Perth CBD 1953</Title>
+        <Abstract>Source: http://www.landgate.wa.gov.au/corporate.nsf</Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="115.817411449231" miny="-31.964835710286998" maxx="115.89935194923102" maxy="-31.941570710287003"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-03278189824456823523-4</Name>
+        <Title>Perth CBD 1965</Title>
+        <Abstract>Raster layer</Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="115.817411665263" miny="-31.964831723146805" maxx="115.899352165263" maxy="-31.941571223146802"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-01911783921633021835-4</Name>
+        <Title>Perth CBD 1974</Title>
+        <Abstract>Raster layer</Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="115.81740990593202" miny="-31.964838478108803" maxx="115.899354905932" maxy="-31.941573478108793"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-01536225687934887291-4</Name>
+        <Title>Perth CBD 1981</Title>
+        <Abstract>Raster layer</Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="115.817412434945" miny="-31.964836879741" maxx="115.89935743494502" maxy="-31.941571879741"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-03478754708215475995-4</Name>
+        <Title>Perth CBD 1995</Title>
+        <Abstract>Raster layer</Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="115.81741162388401" miny="-31.964832706290004" maxx="115.89935212388403" maxy="-31.941572206289994"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-04123309163464439882-4</Name>
+        <Title>Perth CBD 2005</Title>
+        <Abstract>Raster layer</Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="115.81741171646502" miny="-31.964831988025498" maxx="115.89935221646503" maxy="-31.941571488025502"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-07090891663532740289-4</Name>
+        <Title>Fremantle 1948</Title>
+        <Abstract>Source: http://www.landgate.wa.gov.au/corporate.nsf</Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="115.73708799999999" miny="-32.06514183933492" maxx="115.78049499493378" maxy="-32.028924100000005"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-14388602252477377447-4</Name>
+        <Title>Fremantle Fishing Boat Harbour and Environs</Title>
+        <Abstract>Raster layer</Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="115.71378651036896" miny="-32.08837625028431" maxx="115.76988916223299" maxy="-32.03512433536522"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-14534393696233254147-4</Name>
+        <Title>Port Hedland 1995</Title>
+        <Abstract>Source: http://www.landgate.wa.gov.au/corporate.nsf</Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="118.551563" miny="-20.331643359607796" maxx="118.64929624742427" maxy="-20.293604700000003"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-05378290337139864947-4</Name>
+        <Title>Port Hedland Townsite and Environs 0.2m</Title>
+        <Abstract>Raster layer</Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="118.51121498664268" miny="-20.4504887352085" maxx="118.72286222741808" maxy="-20.28314639753277"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-02313641205681311597-4</Name>
+        <Title>Geraldton Townsite 1952</Title>
+        <Abstract>Raster layer</Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="114.57478386116908" miny="-28.795074071049903" maxx="114.62658620138674" maxy="-28.76710859715798"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-04377726914351212886-4</Name>
+        <Title>Ord River Nov 1968</Title>
+        <Abstract>Raster layer</Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="128.622981" miny="-16.7402390405014" maxx="128.76618716695992" maxy="-16.4998081"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-17524461535173410470-4</Name>
+        <Title>Oblique Aerial Imagery</Title>
+        <Abstract>Point Index of Oblique Aerial Imagery</Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="113.65689899999997" miny="-32.522817999999994" maxx="128.10703299999997" maxy="-15.448831999999996"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-03418327371984960177-4</Name>
+        <Title>Earth is Art Locations</Title>
+        <Abstract>Placemark Locations for Earth Is Art Images.
+&lt;p&gt;
+ Western Australian Land Information Authority (Landgate) 2013. Use of digital land information is subject to the following &lt;a href="http://www.landgate.wa.gov.au/corporate.nsf/web/shrinkwrap+Licence"&gt;Licence&lt;/a&gt;. 
+&lt;/p&gt;</Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="113.54433682564469" miny="-33.551588917662116" maxx="128.73785864254683" maxy="-14.853384186067087"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-04696396229875990917-4</Name>
+        <Title>Perth Townsite 1838</Title>
+        <Abstract>Raster layer</Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="115.81960143939806" miny="-31.982363667006908" maxx="115.90166603868141" maxy="-31.936025338118917"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-01442882178563260719-4</Name>
+        <Title>Perth Townsite 1830 (Perth Lakes Cross-Section Survey)</Title>
+        <Abstract>Sections through Perth waters to Lake Irwin eastwards from Lake Kingsford, west side of Hutt Street by A.C. Gregory [Tally No. 005353].
+ http://www.sro.wa.gov.au/about-us/contact-details </Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="115.80742154781048" miny="-32.028838436975924" maxx="115.91675414210515" maxy="-31.941545530516013"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-03718521562012310950-4</Name>
+        <Title>Fremantle Townsite 1844</Title>
+        <Abstract>Raster layer</Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="115.73438559949663" miny="-32.067873230363325" maxx="115.75859470501707" maxy="-32.038845926648634"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-10494309703138051362-4</Name>
+        <Title>Fremantle Town Plan 1833</Title>
+        <Abstract>Source:  http://aeon.sro.wa.gov.au/Investigator/Details/Item_Detail.asp?Entity=Global&amp;Search=W.%20K.%20Shenton&amp;Op=Exact&amp;Page=1&amp;Id=4842803&amp;SearchPage=Global</Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="115.735258" miny="-32.0694369" maxx="115.75964800000001" maxy="-32.0353809"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-16583403416102207249-4</Name>
+        <Title>Authur's Head Landuse Capability Survey, Fremantle 1835</Title>
+        <Abstract>Fremantle 19C. Plan of Arthur's Head showing the improvements made by Fremantle Whaling Company surveyed by A. Hillman, 1838 [scale: 1 chain to 1 inch, Tally No. 005681].
+ http://www.sro.wa.gov.au/about-us/contact-details </Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="115.73346472959486" miny="-32.06059275162572" maxx="115.74642941480747" maxy="-32.05188722474401"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-10964069326027496864-4</Name>
+        <Title>Bunbury Townsite 1849</Title>
+        <Abstract>Raster layer</Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="115.62668522913958" miny="-33.32958113079458" maxx="115.6522210420239" maxy="-33.313074981094914"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-03871399355262043049-4</Name>
+        <Title>Early Townsite of Albany</Title>
+        <Abstract>Raster layer</Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="117.86875437966738" miny="-35.03455174419448" maxx="117.90257522221621" maxy="-35.01466425596927"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-11361323816753589475-4</Name>
+        <Title>Albany 1834  (Early Townsite of Albany &amp; Environs)</Title>
+        <Abstract>Map of Albany and its environs, drawn and reduced from R Clint's survey by W K Shenton, 28 August 1834.
+ http://aeon.sro.wa.gov.au/Investigator/Details/Series_Detail.asp?Id=241</Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="117.84617718319913" miny="-35.0631363409328" maxx="117.93380979613957" maxy="-34.997546732653525"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-17629644657408230003-4</Name>
+        <Title>Avon Landuse Capability Survey 1897</Title>
+        <Abstract>Raster layer</Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="117.13388339815843" miny="-32.55832632108419" maxx="117.31210770161066" maxy="-32.459970979100994"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-03297710125630088121-4</Name>
+        <Title>Western &amp; Central Australia 1862</Title>
+        <Abstract>Raster layer</Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="106.22374213852655" miny="-42.770005690561" maxx="142.34037462827786" maxy="-8.189343961062375"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-15223575623013231467-4</Name>
+        <Title>Australind Townsite 1841 (Australind Town Plan)</Title>
+        <Abstract>Australind 5/1. Plan of the intended Town of Australind as finally arranged by M. Walter Clifton Esq., FRS. [Tally No. 005627].
+ http://aeon.sro.wa.gov.au/Investigator/Details/Item_Detail.asp?Entity=Global&amp;Search=Town%20of%20Australind%20as%20finally%20&amp;Op=All&amp;Page=1&amp;Id=4842714&amp;SearchPage=Global</Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="115.6859586344186" miny="-33.30596856442377" maxx="115.7517733852645" maxy="-33.250090868271855"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-18270852199265728531-4</Name>
+        <Title>Fitzroy River  1850</Title>
+        <Abstract>Vicinity of the Fitzroy River, Mt Campbell, Margaret &amp; Cunningham Rivers by G.E. May, Fieldbooks 7 &amp; 9 [scale: 8 chains to an inch, undated].
+ http://www.sro.wa.gov.au/about-us/contact-details </Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="125.35683302773916" miny="-18.55529006574326" maxx="126.00756850896967" maxy="-18.101167681793594"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-13314920695907648018-4</Name>
+        <Title>Garden Island and Port Leschenault 1829</Title>
+        <Abstract>Chart of coast between Garden Island and Port Leschenault by Lt. W. Preston by A. Hillman [Tally No. 005052].
+ http://www.sro.wa.gov.au/about-us/contact-details </Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="115.18584544156927" miny="-33.553567893816876" maxx="116.3803868257775" maxy="-32.09685836200874"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-06166998608314807321-4</Name>
+        <Title>Early Townsite Kalgoorlie </Title>
+        <Abstract>Kalgoorlie 77/7. Townsite of Kalgoorlie - new plan. G.G. Hogarths [scale: 3 chains to an inch].
+ http://aeon.sro.wa.gov.au/Investigator/Details/Item_Detail.asp?Entity=Global&amp;Search=77/7&amp;Op=All&amp;Page=1&amp;Id=4842884&amp;SearchPage=Global</Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="121.45222495646841" miny="-30.758258545954448" maxx="121.4824156278968" maxy="-30.73237104939134"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-02365142237154676073-4</Name>
+        <Title>Early Townsite of Coolgardie 1835</Title>
+        <Abstract>Coolgardie 76/2. Coolgardie townsite. R. Gledden, G. C. Hamilton, J. O. Oxley [scale: 3 chains to 1 inch]. (4251 KB)
+ http://www.sro.wa.gov.au/about-us/contact-details </Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="121.15025989499333" miny="-30.963583991639396" maxx="121.17555549796978" maxy="-30.94793395916617"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-07539655522952577776-4</Name>
+        <Title>Early Townsite of Dongara 1835 (Town Plan of Port Denison)</Title>
+        <Abstract>Dongara 8. Dongara, as marked on the ground [scale: 4 chains to 1 inch, Tally No. 005672].
+ http://www.sro.wa.gov.au/about-us/contact-details </Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="114.91775097603004" miny="-29.27356842571153" maxx="114.95013808157918" maxy="-29.254824805441807"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-17388226903537258664-4</Name>
+        <Title>Early Townsite of Esperence 1835</Title>
+        <Abstract>Esperance 67/1. Esperance Townsite, Lots 1 to 42, additional lots added to 82. R. Brazier 1893, W H Angrove 1894. Drawn by Murray [scale: 2 chains to 1 inch].
+ http://www.sro.wa.gov.au/about-us/contact-details </Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="121.88538401195096" miny="-33.865884392308445" maxx="121.90288330843129" maxy="-33.85505030733306"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-13918770417555330159-4</Name>
+        <Title>Early Townsite of Kalgoorlie 1835 (Town Plan of Hannans Find)</Title>
+        <Abstract>Kalgoorlie 77. Plan of Hannans Find (later changed to Kalgoorlie) Lots 1 to 110. G. Claude Hamilton, 30/07/1894. [scale: 2 chains to an inch]. (2220 KB)
+ http://www.sro.wa.gov.au/about-us/contact-details </Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="121.46943455053801" miny="-30.751000549925443" maxx="121.47765634379365" maxy="-30.7406376072883"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-12204997637531074785-4</Name>
+        <Title>Early Townsite of Narrogin 1835</Title>
+        <Abstract>Narrogin 160. Plan of Narrogin Townsite showing Streets, watercourse, Narrogin Pool, Great Southern Railway, Good Shed and yard sidings by Charles R. Fenwick dated 1889 [scale: 3 chains to an inch].
+ http://www.sro.wa.gov.au/about-us/contact-details </Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="117.17348079261693" miny="-32.94616635169181" maxx="117.18875808443896" maxy="-32.926364272486076"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-02766276861478448334-4</Name>
+        <Title>Early Townsite of Northam 1835</Title>
+        <Abstract>Northam 13. Compilation Plan of Northam Townsite showing the Avon and Mortlock Rivers by C.H. Roe. Various Lots by F.T. Gregory and others. [scale: 8 chains to an inch, Tally No. 005739].
+ http://www.sro.wa.gov.au/about-us/contact-details </Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="116.63214104668722" miny="-31.68405913515005" maxx="116.70168333697161" maxy="-31.617892824526358"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-16941762349917789070-4</Name>
+        <Title>Early Townsite of Augusta 1834 (Survey Map of Augusta)</Title>
+        <Abstract>Augusta 28. Augusta. Survey of west side of River. A. Hillman [Tally No. 005621].
+ http://www.sro.wa.gov.au/about-us/contact-details </Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="115.1593622909155" miny="-34.33894163443826" maxx="115.18808865243989" maxy="-34.31914276853031"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-13845652426270701906-4</Name>
+        <Title>Early Townsite of Beverley 1835</Title>
+        <Abstract>Beverley 15/2. Beverley - coloured working plan, G. Roe.
+ http://www.sro.wa.gov.au/about-us/contact-details </Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="116.91343195098598" miny="-32.12368963451639" maxx="116.95072496709433" maxy="-32.089192228635646"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-02369092352951421373-4</Name>
+        <Title>Early Townsite of Bridgetown 1835</Title>
+        <Abstract>Bridgetown 26/6. Townsite of Bridgetown (Lots to the South and S. West of Townsite). Compiled by Hogarth.
+ http://www.sro.wa.gov.au/about-us/contact-details </Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="116.09200839682909" miny="-34.00823987504104" maxx="116.18085586931434" maxy="-33.95341106012159"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-11928364762298771423-4</Name>
+        <Title>Early Townsite of Brookton 1835</Title>
+        <Abstract>Brookton 101. Brookton Townsite. H. M. Lefroy.
+ http://www.sro.wa.gov.au/about-us/contact-details </Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="117.00307955630602" miny="-32.38941729583734" maxx="117.03922844473828" maxy="-32.35481380582"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-07784413786780008254-4</Name>
+        <Title>Early Townsite of Broome 1835</Title>
+        <Abstract>Broome 36. Townsite of Broome. J. S. Brooking.
+ http://www.sro.wa.gov.au/about-us/contact-details </Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="122.22632633405347" miny="-17.968228158285626" maxx="122.25743571472917" maxy="-17.94660895326936"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-15912436057450067709-4</Name>
+        <Title>Early Townsite of Busselton 1835</Title>
+        <Abstract>Busselton 27. Plan of the Townsite of Busselton by H. M. Ommanney, Assistant Surveyor.
+ http://www.sro.wa.gov.au/about-us/contact-details </Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="115.33691381993609" miny="-33.67046937303229" maxx="115.36318364138826" maxy="-33.64064739094313"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-00388454163300769525-4</Name>
+        <Title>Early Townsite of Carnarvon 1835</Title>
+        <Abstract>Carnarvon 16C/3. Carnarvon Townsite - plan of suburban lots. T. Beasley. Amended A. H. Richter 1947 and W. S. C. Brockway 1948. Richter Fieldbook 85, Brockway Fieldbook 194 [scale: 40 chains to 1 inch].
+ http://www.sro.wa.gov.au/about-us/contact-details </Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="113.64001733462337" miny="-24.868807242732995" maxx="113.67228259018653" maxy="-24.847035934080946"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-09645063408528200073-4</Name>
+        <Title>Early Townsite of Collie 1835</Title>
+        <Abstract>Collie 155/1. Collie. John Ewing [scale: 10 chains to 1 inch].
+ http://www.sro.wa.gov.au/about-us/contact-details </Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="116.1224770680811" miny="-33.37075530468549" maxx="116.20854953391802" maxy="-33.322474757955355"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-14879696198988296607-4</Name>
+        <Title>Early Townsite of Geraldton 1863-66</Title>
+        <Abstract>Geraldton 7. Geraldton, includes town lots, suburban lots and quarries [scale: 80 chains to 1 inch, Tally No. 005696].
+ http://www.sro.wa.gov.au/about-us/contact-details </Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="114.57752362607924" miny="-28.802539800153976" maxx="114.64166912844394" maxy="-28.76008177646872"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-02048655774255612967-4</Name>
+        <Title>Early Townsite of Merredin</Title>
+        <Abstract>Merredin 54/1. Plan of Merredin Townsite Lots (East &amp; West of Lukin St.) &amp; Merredin Peak. HK 189 Road &amp; plan surveyed by H.S. King in 1892. Lots 1-2 by H.S. King Fieldbook 28 p 7. Lots 3-5 by H. Wilson Fieldbook 2 p 64.
+ http://www.sro.wa.gov.au/about-us/contact-details </Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="118.2757467501524" miny="-31.47727479180988" maxx="118.30902215326087" maxy="-31.456733714657506"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-10182821425131680737-4</Name>
+        <Title>Early Townsite of Port Headland 1902 (Town Plan)  </Title>
+        <Abstract>Port Hedland 102/3. Plan of Extension of Townsite of Port Hedland showing Lots 7-127 bounded by The Esplanade, Darlot, Morgans, McKay &amp; Anderson Streets &amp; Lots 1, 20, 21, 40, 41 &amp; 60 facing Anderson Street [scale: 4 chains to an inch].
+ http://www.sro.wa.gov.au/about-us/contact-details </Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="118.56419594995032" miny="-20.32373046150941" maxx="118.5939715521088" maxy="-20.303092812219273"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-08915310589105096655-4</Name>
+        <Title>Early Townsite of Ravensthrope 1835</Title>
+        <Abstract>Ravensthorpe 211. Plan of Ravensthorpe Townsite (Phillips River Goldfield) showing Lots 1-157 and Lots 382-429 [scale: 2 chains to an inch].
+ http://www.sro.wa.gov.au/about-us/contact-details </Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="120.0304418632861" miny="-33.58779311182797" maxx="120.04681213200023" maxy="-33.577981133169196"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-01600217471711299867-4</Name>
+        <Title>Early Townsite of Toodyay 1852 (Town Plan)</Title>
+        <Abstract>Toodyay (Newcastle) 12. Plan of Toodyay Townsite by F.T. Gregory 1852, W. Phelps 1859/1860, by C. Evans 1861 and unsigned [scale: 4 chains to an inch, Tally No. 005855].
+ http://www.sro.wa.gov.au/about-us/contact-details </Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="116.44719111932137" miny="-31.56658592318958" maxx="116.48640061979654" maxy="-31.536133925466917"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-09265457469985411230-4</Name>
+        <Title>1955 Perth Development Proposals</Title>
+        <Abstract>Source: http://www.planning.wa.gov.au/</Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="115.586232" miny="-32.411933057335006" maxx="116.27052248764798" maxy="-31.477061200000005"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-17162391434240432409-4</Name>
+        <Title>1955 Perth Central Area Land Use</Title>
+        <Abstract>Plan for the Metropolitan Region 1955 Atlas by Gordon Stephenson and J.A. Hepburn; Plate 10 "Perth Central Area Land Use"
+&lt;p&gt;
+ Government of Western Australia 2013. Department of Planning
+&lt;/p&gt;</Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="115.83698500000001" miny="-31.973482510893803" maxx="115.89364775521753" maxy="-31.934150599999995"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-16671019670300848198-4</Name>
+        <Title>1955 Perth Central Area Development</Title>
+        <Abstract>Plan for the Metropolitan Region 1955 Atlas by Gordon Stephenson and J.A. Hepburn; Plate 14 "Perth Central Area Development Proposals"
+&lt;p&gt;
+ Government of Western Australia 2013. Department of Planning
+&lt;/p&gt;</Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="115.83723700000002" miny="-31.9738506803883" maxx="115.89390852366962" maxy="-31.9342368"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-02701348564175721246-4</Name>
+        <Title>1955 Perth Central Area Land Zoning</Title>
+        <Abstract>Source: http://www.planning.wa.gov.au/</Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="115.83751400000001" miny="-31.973988218093" maxx="115.89358499448659" maxy="-31.93438730000001"/>
+      </Layer>
+      <Layer queryable="0">
+        <Name>09372590152434720789-04426794355775378777-4</Name>
+        <Title>1955 Perth Land Use</Title>
+        <Abstract>Source: http://www.planning.wa.gov.au/</Abstract>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="115.58832000000001" miny="-32.40008165884501" maxx="116.26952901503999" maxy="-31.4778114"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-09185088708187530383-4</Name>
+        <Title>Proposed LGs Boundaries 2013</Title>
+        <Abstract>Vector layer</Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="115.44912494243349" miny="-32.46943040480379" maxx="116.41514443372725" maxy="-31.45513248215044"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-07805245591538660512-4</Name>
+        <Title>State Electorates (Current) (LGATE) 20130814</Title>
+        <Abstract>Current gazetted WA Electoral Boundaries.
+&lt;p&gt;
+ Western Australian Land Information Authority (Landgate) 2013. Use of digital land information is subject to the following &lt;a href="http://www.landgate.wa.gov.au/corporate.nsf/web/copyright"&gt;Copyright&lt;/a&gt; and &lt;a href="http://www.landgate.wa.gov.au/corporate.nsf/web/disclaimer+of+liability"&gt;Disclaimer&lt;/a&gt;.
+&lt;/p&gt;</Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="112.92093499999999" miny="-35.13506" maxx="129.001929" maxy="-13.678565999999998"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-15269739619986619106-4</Name>
+        <Title>Representative Aboriginal and Torres Strait Islander Body (RATSIB) Boundaries and core attributes</Title>
+        <Abstract>This dataset depicts the boundaries of native title representative body areas. Boundary data has been compiled by NNTT based on reference material sourced from the Department of Families, Housing, Community Services and Indigenous Affairs (FaHCSIA) and spatial data sourced from Geoscience Australia, Department of Natural Resources and Water, Qld, Sinclair Knight Merz Pty Ltd and the National Native Title Tribunal.
+&lt;p&gt; Commonwealth of Australia 2013. 
+Geospatial data portraying native title information produced by the National Native Title Tribunal may not be on-sold. Value added products using this data must acknowledge the National Native Title Tribunal as the data source and include the NNTT &lt;a href="http://www.nntt.gov.au/Mediation-and-agreement-making-services/Geospatial-services/Pages/Spatial-Data.aspx#disclaimer"&gt;Disclaimer. &lt;/a&gt;
+&lt;/p&gt;</Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="109.23558499999997" miny="-47.19094999999999" maxx="163.19208499999996" maxy="-8.880490999999997"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-08880351611364386048-4</Name>
+        <Title>Local Government Authority (LGA) 20131011</Title>
+        <Abstract>Local Government Authority and Locality Boundaries for the State of Western Australia. Generally, Post Code boundaries coincide with the Locality boundaries. Derived from the Spatial Cadastral Database (SCDB) and based on GDA 94. Updated regularly when amendments/changes are formalised.
+&lt;p&gt;
+ Western Australian Land Information Authority (Landgate) 2013. Use of digital land information is subject to the following &lt;a href="http://www.landgate.wa.gov.au/corporate.nsf/web/copyright"&gt;Copyright&lt;/a&gt; and &lt;a href="http://www.landgate.wa.gov.au/corporate.nsf/web/disclaimer+of+liability"&gt;Disclaimer&lt;/a&gt;.&lt;/p&gt;</Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="96.81523027574728" miny="-35.24185027551595" maxx="129.02063306056198" maxy="-10.412389861093423"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-17849657996001724298-4</Name>
+        <Title>Localities (Suburbs) (LGATE) 20131011</Title>
+        <Abstract>Local Government Authority and Locality Boundaries for the State of Western Australia. Generally, Post Code boundaries coincide with the Locality boundaries. Derived from the Spatial Cadastral Database (SCDB) and based on GDA 94. Updated regularly when amendments/changes are formalised.
+&lt;P&gt;
+ Western Australian Land Information Authority (Landgate) 2013. Use of digital land information is subject to the following &lt;a href="http://www.landgate.wa.gov.au/corporate.nsf/web/copyright"&gt;Copyright&lt;/a&gt; and &lt;a href="http://www.landgate.wa.gov.au/corporate.nsf/web/disclaimer+of+liability"&gt;Disclaimer&lt;/a&gt;.&lt;/P&gt;</Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="96.81523027574728" miny="-35.13506041424372" maxx="129.00192884356503" maxy="-10.412389861093423"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-13471954899525932581-4</Name>
+        <Title>Geographic POI (LGATE) 20132510</Title>
+        <Abstract>A place at which there is or was relatively minor human occupation or activity. Towns.
+
+The Medium-scale Topographic Database (TGDB) provides a whole of state view of the natural and man-made features. Typically features found on the 1:25000 to 1:100000 topographic maps include Relief, Transport, Hydrography and Cultural ? man made features.
+&lt;p&gt;
+ Western Australian Land Information Authority (Landgate) 2013. Use of digital land information is subject to the following &lt;a href="http://www.landgate.wa.gov.au/corporate.nsf/web/copyright"&gt;Copyright&lt;/a&gt; and &lt;a href="http://www.landgate.wa.gov.au/corporate.nsf/web/disclaimer+of+liability"&gt;Disclaimer&lt;/a&gt;.&lt;/p&gt;</Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="96.8180079168895" miny="-35.1806468020856" maxx="128.998787706717" maxy="-10.4130864503047"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-17117034635333765496-4</Name>
+        <Title>Overview Towns (LGATE)</Title>
+        <Abstract>Overview of Towns in WA.
+The Medium-scale Topographic Database (TGDB) provides a whole of state view of the natural and man-made features. Typically features found on the 1:25000 to 1:100000 topographic maps include Relief, Transport, Hydrography and Cultural ? man made features.
+&lt;p&gt;
+ Western Australian Land Information Authority (Landgate) 2013. Use of digital land information is subject to the following &lt;a href="http://www.landgate.wa.gov.au/corporate.nsf/web/copyright"&gt;Copyright&lt;/a&gt; and &lt;a href="http://www.landgate.wa.gov.au/corporate.nsf/web/disclaimer+of+liability"&gt;Disclaimer&lt;/a&gt;.&lt;/p&gt;</Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="113.66150053333334" miny="-35.008089383333335" maxx="128.66617471666666" maxy="-15.443039466666665"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-04776818007175272874-4</Name>
+        <Title>Education POI (LGATE) 20130719</Title>
+        <Abstract>Educational Institutions and Support Centres. Features involved with or related to, the act or process of educating; the imparting or
+acquisition of knowledge, skill, etc.; systematic instruction or training.
+
+The Medium-scale Topographic Database (TGDB) provides a whole of state view of the natural and man-made features. Typically features found on the 1:25000 to 1:100000 topographic maps include Relief, Transport, Hydrography and Cultural ? man made features.
+&lt;p&gt;
+ Western Australian Land Information Authority (Landgate) 2013. Use of digital land information is subject to the following &lt;a href="http://www.landgate.wa.gov.au/corporate.nsf/web/copyright"&gt;Copyright&lt;/a&gt; and &lt;a href="http://www.landgate.wa.gov.au/corporate.nsf/web/disclaimer+of+liability"&gt;Disclaimer&lt;/a&gt;.&lt;/p&gt;</Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="96.8180079168895" miny="-35.1806468020856" maxx="128.998787706717" maxy="-10.4130864503047"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-12499197212283322048-4</Name>
+        <Title>Health POI (LGATE) 20130719</Title>
+        <Abstract>Service features related to assisting in the prevention, treatment, and management of
+illness and the preservation of mental and physical well-being through the services offered
+by the medical and allied health professions.
+
+The Medium-scale Topographic Database (TGDB) provides a whole of state view of the natural and man-made features. Typically features found on the 1:25000 to 1:100000 topographic maps include Relief, Transport, Hydrography and Cultural ? man made features.
+&lt;p&gt;
+ Western Australian Land Information Authority (Landgate) 2013. Use of digital land information is subject to the following &lt;a href="http://www.landgate.wa.gov.au/corporate.nsf/web/copyright"&gt;Copyright&lt;/a&gt; and &lt;a href="http://www.landgate.wa.gov.au/corporate.nsf/web/disclaimer+of+liability"&gt;Disclaimer&lt;/a&gt;.&lt;/p&gt;</Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="96.8180079168895" miny="-35.1806468020856" maxx="128.998787706717" maxy="-10.4130864503047"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-09844425269952168843-4</Name>
+        <Title>Emergency Services (POI) LGATE 20130719</Title>
+        <Abstract>Organisations charged with responding to emergency situations (WA). A single point at the feature?s central point or main entrance.
+&lt;p&gt;
+ Western Australian Land Information Authority (Landgate) 2013. Use of digital land information is subject to the following &lt;a href="http://www.landgate.wa.gov.au/corporate.nsf/web/copyright"&gt;Copyright&lt;/a&gt; and &lt;a href="http://www.landgate.wa.gov.au/corporate.nsf/web/disclaimer+of+liability"&gt;Disclaimer&lt;/a&gt;.
+&lt;/p&gt;</Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="96.8180079168895" miny="-35.1806468020856" maxx="128.998787706717" maxy="-10.4130864503047"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-02406381474707693508-4</Name>
+        <Title>Public Transport Authority Stops 20130827</Title>
+        <Abstract>All service routes and related information for public transport bus, train and ferry services providing state wide coverage.
+&lt;p&gt;
+ Government of Western Australia 2013.
+&lt;a href="http://www.pta.wa.gov.au/Disclaimer/tabid/219/Default.aspx"&gt; Disclaimer&lt;/a&gt;  &amp;  &lt;a href="http://www.pta.wa.gov.au/Copyright/tabid/210/Default.aspx"&gt; Copyright&lt;/a&gt;.
+&lt;/p&gt;</Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="113.63351" miny="-35.079225" maxx="128.76440333333332" maxy="-15.770608333333334"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-13313542664337428076-4</Name>
+        <Title>Public Transport Authority Services 20130827</Title>
+        <Abstract>All service routes and related information for public transport bus, train and ferry services providing state wide coverage.
+&lt;p&gt;
+ Government of Western Australia 2013.
+&lt;a href="http://www.pta.wa.gov.au/Disclaimer/tabid/219/Default.aspx"&gt; Disclaimer&lt;/a&gt;  &amp;  &lt;a href="http://www.pta.wa.gov.au/Copyright/tabid/210/Default.aspx"&gt; Copyright&lt;/a&gt;.
+&lt;/p&gt;</Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="113.6321494444444" miny="-35.08145166666668" maxx="128.7648522222222" maxy="-15.770558333333327"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-13386986526085000102-4</Name>
+        <Title>Transport (Point) LGATE 20121107</Title>
+        <Abstract>This featureclass contains the point locations for rail stations, shipping, bus and other transport facilities.
+&lt;p&gt;
+ Western Australian Land Information Authority (Landgate) 2013. Use of digital land information is subject to the following &lt;a href="http://www.landgate.wa.gov.au/corporate.nsf/web/copyright"&gt;Copyright&lt;/a&gt; and &lt;a href="http://www.landgate.wa.gov.au/corporate.nsf/web/disclaimer+of+liability"&gt;Disclaimer&lt;/a&gt;.
+&lt;/p&gt;</Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="114.64788494768763" miny="-35.02811850657907" maxx="127.97537552049707" maxy="-20.148997126355468"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-13972877454103146979-4</Name>
+        <Title>Roads (Joined) LGATE 20130925</Title>
+        <Abstract>The roads dataset was compiled by merging the roads layers of the metropolitan street directory, 1:25000, 1:50000 and 1:100000 digital datasets. This was originally captured photogrammetrically then either scanned or hand digitized and stored in MicroStation files or digitized at source using analytical photogrammetric techniques and translated to DGN format. All DGN files were loaded into the ArcInfo environment and roads tagged with road name (Geographic Names Register GEONOMA ID) via an ArcView application. The roads dataset, which complies with WALIS defined specifications was built in response to increasing demands from both public sector and industry organizations for an intelligent robust road centreline dataset.
+
+ Western Australian Land Information Authority (Landgate) 2013. Use of digital land information is subject to the following &lt;a href="http://www.landgate.wa.gov.au/corporate.nsf/web/Land+Information+Licence"&gt;Licence&lt;/a&gt;.</Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="96.81714090865677" miny="-35.123569181827406" maxx="129.01852623375902" maxy="-10.413076611812983"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-14935419729311506060-4</Name>
+        <Title>Railway Lines LGATE 20121107</Title>
+        <Abstract>This featureclass contains the railway polylines captured statewide regardless of current status. That is, this dataset does not distinguish the type of railway (eg. From industrial to disused)
+&lt;p&gt;
+ Western Australian Land Information Authority (Landgate) 2013. Use of digital land information is subject to the following &lt;a href="http://www.landgate.wa.gov.au/corporate.nsf/web/copyright"&gt;Copyright&lt;/a&gt; and &lt;a href="http://www.landgate.wa.gov.au/corporate.nsf/web/disclaimer+of+liability"&gt;Disclaimer&lt;/a&gt;.
+&lt;/p&gt;</Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="113.616569090565" miny="-35.03923019818871" maxx="129.00139487162468" maxy="-15.449875163077373"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-05637887565740576121-4</Name>
+        <Title>road_hierarchy_mrwa_20130920</Title>
+        <Abstract>Vector layer</Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="96.81825852300011" miny="-35.125242099999866" maxx="129.0911708110001" maxy="-10.412142138999911"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-07094400874496296137-4</Name>
+        <Title>Mines &amp; Mineral Deposits (MINEDEX) DMP 20131011</Title>
+        <Abstract>Vector layer</Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="113.33880000000009" miny="-35.10859999999991" maxx="128.99794600000007" maxy="-13.912529999999947"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-08502081265855283139-4</Name>
+        <Title>Mining Tenements DMP 20131011</Title>
+        <Abstract>Vector layer</Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="105.53333332790065" miny="-35.033522303030146" maxx="129.01666666127286" maxy="-10.415345166691509"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-06347977206903636022-4</Name>
+        <Title>Selected Person Characteristics (SA1) ABS B01 </Title>
+        <Abstract>ABS 2011 Census of Population and Housing. Basic Community Profile.
+
+A Community Profile provides a comprehensive statistical picture of an area. Providing characteristics relating to people, families and dwellings. They cover most topics on the Census form.
+Community Profiles can be used to compare the characteristics of different areas.
+
+&lt;p&gt;
+ &lt;a href="http://www.abs.gov.au/websitedbs/D3310114.nsf/Home/%A9+Copyright?opendocument#from-banner=GB"&gt;Commonwealth of Australia&lt;/a&gt; 
+&lt;a href= "http://creativecommons.org/licenses/by/2.5/au/"&gt;
+&lt;img src="http://www.abs.gov.au/ausstats/wmdata.nsf/activeimages/creative+commons/$File/creative%20commons.png"/&gt;
+&lt;/p&gt;
+        </Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="112.921114" miny="-35.134846" maxx="129.00193" maxy="-13.689492"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-05287272751864194904-4</Name>
+        <Title>Selected Medians and Averages (SA1) ABS B02</Title>
+        <Abstract>Basic Census characteristics on persons, families and dwellings in the selected area. The data is based on place of usual residence.
+
+&lt;p&gt;
+ &lt;a href="http://www.abs.gov.au/websitedbs/D3310114.nsf/Home/%A9+Copyright?opendocument#from-banner=GB"&gt;Commonwealth of Australia&lt;/a&gt; 
+&lt;a href= "http://creativecommons.org/licenses/by/2.5/au/"&gt;
+&lt;img src="http://www.abs.gov.au/ausstats/wmdata.nsf/activeimages/creative+commons/$File/creative%20commons.png"/&gt;
+&lt;/p&gt;
+        </Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="112.921114" miny="-35.134846" maxx="129.00193" maxy="-13.689492"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-08932346934225218677-4</Name>
+        <Title>Selected Person Characteristics (SSC) ABS B01</Title>
+        <Abstract>ABS 2011 Census of Population and Housing. Basic Community Profile. 
+
+A Community Profile provides a comprehensive statistical picture of an area. Providing characteristics relating to people, families and dwellings. They cover most topics on the Census form.
+Community Profiles can be used to compare the characteristics of different areas.
+
+&lt;p&gt;
+ &lt;a href="http://www.abs.gov.au/websitedbs/D3310114.nsf/Home/%A9+Copyright?opendocument#from-banner=GB"&gt;Commonwealth of Australia&lt;/a&gt; 
+&lt;a href= "http://creativecommons.org/licenses/by/2.5/au/"&gt;
+&lt;img src="http://www.abs.gov.au/ausstats/wmdata.nsf/activeimages/creative+commons/$File/creative%20commons.png"/&gt;
+&lt;/p&gt;
+
+        </Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="112.921114" miny="-35.134846" maxx="129.00193" maxy="-13.689492"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-10505729566696067251-4</Name>
+        <Title>Selected Medians and Averages (SSC) ABS B02 </Title>
+        <Abstract>ABS 2011 Census of Population and Housing. Basic Community Profile. 
+
+A Community Profile provides a comprehensive statistical picture of an area. Providing characteristics relating to people, families and dwellings. They cover most topics on the Census form.
+Community Profiles can be used to compare the characteristics of different areas.
+
+&lt;p&gt;
+ &lt;a href="http://www.abs.gov.au/websitedbs/D3310114.nsf/Home/%A9+Copyright?opendocument#from-banner=GB"&gt;Commonwealth of Australia&lt;/a&gt; 
+&lt;a href= "http://creativecommons.org/licenses/by/2.5/au/"&gt;
+&lt;img src="http://www.abs.gov.au/ausstats/wmdata.nsf/activeimages/creative+commons/$File/creative%20commons.png"/&gt;
+&lt;/p&gt;
+        </Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="112.921114" miny="-35.134846" maxx="129.00193" maxy="-13.689492"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-12830528591563949894-4</Name>
+        <Title>Selected Person Characteristics (LGA) ABS B01 </Title>
+        <Abstract>ABS 2011 Census of Population and Housing. Basic Community Profile. 
+
+A Community Profile provides a comprehensive statistical picture of an area. Providing characteristics relating to people, families and dwellings. They cover most topics on the Census form.
+Community Profiles can be used to compare the characteristics of different areas.
+
+&lt;p&gt;
+ &lt;a href="http://www.abs.gov.au/websitedbs/D3310114.nsf/Home/%A9+Copyright?opendocument#from-banner=GB"&gt;Commonwealth of Australia&lt;/a&gt; 
+&lt;a href= "http://creativecommons.org/licenses/by/2.5/au/"&gt;
+&lt;img src="http://www.abs.gov.au/ausstats/wmdata.nsf/activeimages/creative+commons/$File/creative%20commons.png"/&gt;
+&lt;/p&gt;
+        </Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="112.921114" miny="-35.134846" maxx="129.00193" maxy="-13.689492"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-10420078231303490383-4</Name>
+        <Title>Selected Medians and Averages (LGA) ABS B02 </Title>
+        <Abstract>ABS 2011 Census of Population and Housing. Basic Community Profile. 
+
+A Community Profile provides a comprehensive statistical picture of an area. Providing characteristics relating to people, families and dwellings. They cover most topics on the Census form.
+Community Profiles can be used to compare the characteristics of different areas.
+
+&lt;p&gt;
+ &lt;a href="http://www.abs.gov.au/websitedbs/D3310114.nsf/Home/%A9+Copyright?opendocument#from-banner=GB"&gt;Commonwealth of Australia&lt;/a&gt; 
+&lt;a href= "http://creativecommons.org/licenses/by/2.5/au/"&gt;
+&lt;img src="http://www.abs.gov.au/ausstats/wmdata.nsf/activeimages/creative+commons/$File/creative%20commons.png"/&gt;
+&lt;/p&gt;
+        </Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="112.921114" miny="-35.134846" maxx="129.00193" maxy="-13.689492"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-11612738951216418056-4</Name>
+        <Title>Water Pipe 20130920</Title>
+        <Abstract>This dataset contains Centrelines only for all the Trunk, Distribution &amp; Reticulation Water Mains in all the locations where the Water Corporation is licensed to provide Potable Water. It does not include Bore mains, Wastewater Reuse or Saline Mains. Bunbury &amp; Busselton are excluded as the Water Service is supplied by those particular Local Councils.
+
+ Water Corporation 2013. &lt;a href="http://www.watercorporation.com.au/legal/copyright"&gt;Copyright&lt;/a&gt;</Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="105.62817021280509" miny="-35.09393341576402" maxx="128.75732147314875" maxy="-10.41308993137048"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-14088651096230680035-4</Name>
+        <Title>Water Meter 20130920</Title>
+        <Abstract>Vector layer</Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="105.66085493507033" miny="-35.09703743271735" maxx="128.7564377193407" maxy="-10.414637522421321"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-10378278059033752890-4</Name>
+        <Title>Sewer Pipe - Connection (Line) 20130920</Title>
+        <Abstract>Vector layer</Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="105.6638479867246" miny="-35.068236349738235" maxx="128.75400315127635" maxy="-10.414480198658488"/>
+      </Layer>
+      <Layer queryable="1">
+        <Name>09372590152434720789-10320317316075312555-4</Name>
+        <Title>Sewer Access Chamber 20130920</Title>
+        <Abstract>Vector layer</Abstract>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:3785</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="105.6646962800559" miny="-35.068236349738235" maxx="128.75392417059228" maxy="-10.414480198658488"/>
+      </Layer>
+    </Layer>
+  </Capability>
+</WMT_MS_Capabilities>
