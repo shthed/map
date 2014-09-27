@@ -104,7 +104,7 @@ function setnmdate() {
   map.mapTypes.set("Nearmap", nmMapType);
 }
 
-var nmdata;
+var nmdata; // data returned by date query
 function gotnmdates(data) {
   if (!data) { log('get nearmap dates failed'); return; }
   nmdata = date;
@@ -122,10 +122,15 @@ function gotnmdates(data) {
 }
 
 function getnmdates() {
-  var callback = "gotnmdates";
-  var cp = map.mapTypes.satellite.projection.fromLatLngToPoint(map.getCenter());
+  var proj = map.getProjection();
+  if (!proj) {
+    google.maps.event.addListenerOnce(map, 'projection_changed', getnmdates);
+    return;
+  }
+  var cp = proj.fromLatLngToPoint(map.getCenter());
   var x = Math.round(cp.x/256*Math.pow(2, map.getZoom()));
   var y = Math.round(cp.y/256*Math.pow(2, map.getZoom()));
+  var callback = "gotnmdates";
   nmdateurl = "https://maps.nearmap.com/maps/?x=" + x + "&y=" + y + "&z=" + map.getZoom() + "&nmq=info&nmf=json&nmjsonp="+callback;
   $.ajax({
     cache: true,
@@ -194,7 +199,10 @@ function gotlglayers(data) {
 // wish this data was availble on slip already
 function getlglayers() {
   var bounds = map.getBounds();
-  if (!bounds) return;
+  if (!bounds) {
+    google.maps.event.addListenerOnce(map, 'bounds_changed', getlglayers);
+    return;
+  }
   var callback = "gotlglayers";
   var from = "1AMWBL44ptO6vVRkMWpeHSVQfkluByvO7efhEfaYf";
   var key = "AIzaSyA_aPxq2NYNgb067co7W2sUYpi66X9fM_g";
@@ -728,21 +736,32 @@ function placeschanged() {
 
 
 function getdates() {
-  if (nearmap) { getnmdates(); }
-  getlglayers();
+  if (map.getMapTypeId() == "Nearmap") getnmdates();
+  if (map.getMapTypeId() == "Landgate") getlglayers();
 }
 
 
 function updateimageselect() {
+  var oldimageid = imageid;
   // [ date, type, id, name ]
   images = [];
 
+  if (map.getMapTypeId() == "Landgate") {
+    if (!lglayer) lglayer = lglayers[0][0];
+    imageid = lglayer;
+  }
   for (var i in lglayers) {
     images.push([lglayers[i][2], 'lg', lglayers[i][0], lglayers[i][1]]);
+  }
+  
+  if (map.getMapTypeId() == "Nearmap") {
+    if (!nmdate) nmdate = nmdates[0];
+    imageid = nmdate;
   }
   for (var i in nmdates) {
     images.push([nmdates[i], 'nm', nmdates[i], 'nearmap']);
   }
+  
   images.sort(function(a,b) { return b[0] - a[0]; }); // sort by date descending
   
   imagefound = false;
@@ -765,9 +784,13 @@ function updateimageselect() {
   imageselect.onchange = selectimage;
   imageselect.onkeyup = imageselect.onchange; // to support firefox select change with keyboard
   
+  // should only select the correct type of image, not just first one?
   if (!imageid || !imagefound) {
-    imageid = images[0][0];
+    //imageid = images[0][0];
     imageselect.selectedIndex = 0;
+    imageselect.onchange();
+  } else if (imageid != oldimageid) {
+    imageid = '';  // force layer to be set again
     imageselect.onchange();
   }
 }
@@ -1050,14 +1073,26 @@ function centerchanged() {
 
 function maptypechanged() {
   headingchanged(); // update heading
-  if (map.getMapTypeId() == "Landgate" && !lglayer) getlglayers();  // get lg layers if not selected
+  if (map.getMapTypeId() == "Landgate") {
+    if (!lglayer) {
+      getlglayers();
+    } else {
+      updateimageselect();
+    }
+  }
+  if (map.getMapTypeId() == "Nearmap") {
+    if (!nmdate) {
+      getnmdates();
+    } else {
+      updateimageselect();
+    }
+  }
   saveview();
 }
 
 function mapidle() {
   saveview();
   searchBox.setBounds(map.getBounds());
-  if (map.getMapTypeId() == "Landgate" && !lglayer) getlglayers();  // get lg layers if not selected
 }
 
 var isloadingview = false; // prevent saving the view while loading it
