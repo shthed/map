@@ -1,5 +1,6 @@
 /* jshint strict: true */
-/* global google dateFormat maprootJson */
+/* global $ google dateFormat maprootJson */
+"use strict";
 
 var mapcanvas;
 var map;
@@ -230,7 +231,7 @@ var fireMapType = new google.maps.ImageMapType({
 
 
 // bing
-function TileToQuadKey(x, y, zoom) {
+function tileToQuadKey(x, y, zoom) {
   var quad = "";
   for (var i = zoom; i > 0; i--) {
     var mask = 1 << (i - 1);
@@ -252,7 +253,7 @@ var bingMapOpt = {
     var x, y;
     switch (heading) {
       case 't':
-        return "http://ak.t" + serv + ".tiles.virtualearth.net/tiles/a" + TileToQuadKey(coord.x, coord.y, zoom) + ".jpeg?g=" + g + "&n=z";
+        return "http://ak.t" + serv + ".tiles.virtualearth.net/tiles/a" + tileToQuadKey(coord.x, coord.y, zoom) + ".jpeg?g=" + g + "&n=z";
       case 'n':
         x = coord.x;
         y = coord.y;
@@ -270,7 +271,7 @@ var bingMapOpt = {
         y = coord.x;
         break;
     }
-    return "http://ak.t" + serv + ".tiles.virtualearth.net/tiles/svi" + TileToQuadKey(x, y, zoom) + "?g=" + g + "&dir=dir_" + heading + "&n=z";
+    return "http://ak.t" + serv + ".tiles.virtualearth.net/tiles/svi" + tileToQuadKey(x, y, zoom) + "?g=" + g + "&dir=dir_" + heading + "&n=z";
   },
   tileSize: new google.maps.Size(256, 256),
   maxZoom: 21
