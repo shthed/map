@@ -28,11 +28,9 @@ var overlayopacity; // overlay opacity range input
 var searchInput; // places search html input
 var searchBox; // places.SearchBox
 
-function log(s) {
-  // Error().stack
-  if (typeof console !== "undefined") {
-    console.log(s);
-  }
+var log = function () {};
+if (typeof console !== "undefined") {
+  log = console.log.bind(console);
 }
 
 // map types
@@ -47,7 +45,7 @@ var nmMapOpt = {
     }
     // http://web2.nearmap.com/maps/hl=en&x=430876&y=311305&z=19&nmd=20200202&nml=Vert&httpauth=false&version=2
     // http://web0.nearmap.com/maps/hl=en&x=431091&y=311143&z=19&nml=Vert&httpauth=false&version=2
-    var tileUrl = "http://web" + (coord.x % 3) + ".au.nearmap.com/maps/hl=en&x=" + coord.x + "&y=" + coord.y + "&z=" + zoom;
+    var tileUrl = "https://web" + (coord.x % 3) + ".nearmap.com/maps/hl=en&x=" + coord.x + "&y=" + coord.y + "&z=" + zoom;
     if (nmdate) {
       tileUrl += "&nmd=" + nmdate;
     }
