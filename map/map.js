@@ -14,6 +14,8 @@ var lglayers = [];
 var images; // array of images
 var imageselect; // imagery date <select> list for landgate and nearmap
 var imageid; // currently selected image
+var imageupbtn;
+var imagedownbtn;
 
 var headingselect;
 var heading = "t";
@@ -596,21 +598,21 @@ function createControls() {
   controlDiv.appendChild(getDatesUI);
   google.maps.event.addDomListener(getDatesUI, 'click', getdates);
 
-  var imageup = document.createElement('button');
-  imageup.title = 'newer image';
-  imageup.style.cursor = 'pointer';
-  imageup.style.backgroundColor = 'white';
-  imageup.innerHTML = '&uarr;';
-  controlDiv.appendChild(imageup);
-  google.maps.event.addDomListener(imageup, 'click', cacheimageupclick);
+  imageupbtn = document.createElement('button');
+  imageupbtn.title = 'newer image';
+  imageupbtn.style.cursor = 'pointer';
+  imageupbtn.style.backgroundColor = 'white';
+  imageupbtn.innerHTML = '&uarr;';
+  controlDiv.appendChild(imageupbtn);
+  google.maps.event.addDomListener(imageupbtn, 'click', cacheimageupclick);
 
-  var imagedown = document.createElement('button');
-  imagedown.title = 'older image';
-  imagedown.style.cursor = 'pointer';
-  imagedown.style.backgroundColor = 'white';
-  imagedown.innerHTML = '&darr;';
-  controlDiv.appendChild(imagedown);
-  google.maps.event.addDomListener(imagedown, 'click', cacheimagedownclick);
+  imagedownbtn = document.createElement('button');
+  imagedownbtn.title = 'older image';
+  imagedownbtn.style.cursor = 'pointer';
+  imagedownbtn.style.backgroundColor = 'white';
+  imagedownbtn.innerHTML = '&darr;';
+  controlDiv.appendChild(imagedownbtn);
+  google.maps.event.addDomListener(imagedownbtn, 'click', cacheimagedownclick);
 
   headingselect = document.createElement("select");
   headingselect.onchange = headingchanged;
@@ -825,12 +827,12 @@ function cacheimageupclick() {
   if (!cacheimageupdo) {
     if (cacheimagedowndo) cacheimagedownclick();
     cacheimageupdo = true;
-    imageup.innerHTML = '&otimes;';
+    imageupbtn.innerHTML = '&otimes;';
     cacheimagemap();
   }
   else {
     cacheimageupdo = false;
-    imageup.innerHTML = '&uarr;';
+    imageupbtn.innerHTML = '&uarr;';
   }
 }
 
@@ -838,12 +840,12 @@ function cacheimagedownclick() {
   if (!cacheimagedowndo) {
     if (cacheimageupdo) cacheimageupclick();
     cacheimagedowndo = true;
-    imagedown.innerHTML = '&otimes;';
+    imagedownbtn.innerHTML = '&otimes;';
     cacheimagemap();
   }
   else {
     cacheimagedowndo = false;
-    imagedown.innerHTML = '&darr;';
+    imagedownbtn.innerHTML = '&darr;';
   }
 }
 
