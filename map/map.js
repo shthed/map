@@ -662,10 +662,14 @@ function createControls() {
 
   searchInput = document.createElement("input");
   searchInput.type = "text";
+  searchInput.style.width = "300px";
+  searchInput.style.margin = "15px";
+  searchInput.style.padding = "5px";
   searchInput.onclick = function() {
     this.select();
   };
-  searchInput.oninput = removeplacemarkers;
+  //searchInput.oninput = removeplacemarkers;
+  searchInput.oninput = searchoninput;
   map.controls[google.maps.ControlPosition.TOP_LEFT].push(searchInput);
   searchBox = new google.maps.places.SearchBox(searchInput);
   google.maps.event.addListener(searchBox, 'places_changed', placeschanged);
@@ -676,11 +680,90 @@ function createControls() {
 var markers = [];
 var places = [];
 
+var autoservice = new google.maps.places.AutocompleteService();
+
+function searchoninput() {
+  log(searchInput.value);
+  if (searchInput.value) {
+    autoservice.getQueryPredictions({ input: searchInput.value, bounds: map.getBounds() }, predictionscallback);
+  }
+}
+
+function predictionscallback(predictions, status) {
+  if (status != google.maps.places.PlacesServiceStatus.OK) {
+    log(status);
+    return;
+  }
+  for (var i in predictions) {
+    log(predictions[i].description);
+  }
+}
+
+
 function removeplacemarkers() {
   markers.forEach(function(m) {
     m.setMap(null);
   });
 }
+
+var markerImage = new Image();
+markerImage.crossOrigin="anonymous"
+markerImage.src = '//maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png';
+
+function makeIcon2(text) {
+  var canvas = document.createElement('canvas');
+  var context = canvas.getContext('2d');
+
+  var imgsize = 25;
+  var imgxoff = 4;
+  canvas.height = imgsize;
+  var y = canvas.height - 2;
+  var x = imgsize - imgxoff;
+  context.font = '13px sans-serif';
+  canvas.width = context.measureText(text).width + 3 + imgsize - imgxoff;
+  context.font = '13px sans-serif';
+  context.textBaseline = 'bottom';
+  context.lineWidth = 4;
+  context.strokeStyle = 'black';
+  context.strokeText(text, x, y);
+  context.fillStyle = 'white';
+  context.fillText(text, x, y);
+
+  context.drawImage(markerImage, -imgxoff, 0, imgsize, imgsize);
+
+  return {
+    url: canvas.toDataURL(),
+    anchor: new google.maps.Point(8, 25)
+  }
+}
+
+function makeIcon(text) {
+  var canvas = document.createElement('canvas');
+  var context = canvas.getContext('2d');
+
+  var imgsize = 50;
+  var imgxoff = 9;
+  var font = '30px sans-serif';
+  canvas.height = imgsize;
+  var y = canvas.height - 5;
+  var x = imgsize -imgxoff;
+  context.font = font;
+  canvas.width = context.measureText(text).width + 3 + imgsize - imgxoff;
+  context.drawImage(markerImage, -imgxoff, 0, imgsize, imgsize);
+  context.font = font;
+  context.textBaseline = 'bottom';
+  context.lineWidth = 5;
+  context.strokeStyle = 'black';
+  context.strokeText(text, x, y);
+  context.fillStyle = 'white';
+  context.fillText(text, x, y);
+
+  return {
+    url: canvas.toDataURL(),
+    anchor: new google.maps.Point(8, 25),
+    scaledSize: new google.maps.Size(canvas.width/2, canvas.height/2)
+  }
+}  
 
 function placeschanged() {
   removeplacemarkers();
@@ -690,9 +773,14 @@ function placeschanged() {
 
   // For each place, get the icon, place name, and location.
   markers = [];
+  
   var bounds = new google.maps.LatLngBounds();
+  var wabounds = new google.maps.LatLngBounds(new google.maps.LatLng(-36, 112), new google.maps.LatLng(-13, 130));
 
   places.forEach(function(place) {
+    
+    if (!wabounds.contains(place.geometry.location)) return;
+    /*    
     var image = {
       url: place.icon,
       size: new google.maps.Size(71, 71),
@@ -700,11 +788,12 @@ function placeschanged() {
       anchor: new google.maps.Point(17, 34),
       scaledSize: new google.maps.Size(25, 25)
     };
+    */
 
     // Create a marker for each place.
     var marker = new google.maps.Marker({
       map: map,
-      icon: image,
+      icon: makeIcon(place.name),
       title: place.name,
       position: place.geometry.location
     });
@@ -725,7 +814,8 @@ function placeschanged() {
     // if bounds is a point, dont zoom
     map.panTo(bounds.getCenter());
   }
-  else {
+  else if (!bounds.equals(new google.maps.LatLngBounds())) {
+    // bounds has actually changed
     map.fitBounds(bounds);
   }
 }
