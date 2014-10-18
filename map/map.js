@@ -683,10 +683,11 @@ var places = [];
 var autoservice = new google.maps.places.AutocompleteService();
 
 function searchoninput() {
-  log(searchInput.value);
-  if (searchInput.value) {
-    autoservice.getQueryPredictions({ input: searchInput.value, bounds: map.getBounds() }, predictionscallback);
-  }
+  if (!searchInput.value) removeplacemarkers();
+  //log(searchInput.value);
+  //if (searchInput.value) {
+  //  autoservice.getQueryPredictions({ input: searchInput.value, bounds: map.getBounds() }, predictionscallback);
+  //}
 }
 
 function predictionscallback(predictions, status) {
@@ -707,35 +708,8 @@ function removeplacemarkers() {
 }
 
 var markerImage = new Image();
-markerImage.crossOrigin="anonymous"
+markerImage.crossOrigin = "anonymous";
 markerImage.src = '//maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png';
-
-function makeIcon2(text) {
-  var canvas = document.createElement('canvas');
-  var context = canvas.getContext('2d');
-
-  var imgsize = 25;
-  var imgxoff = 4;
-  canvas.height = imgsize;
-  var y = canvas.height - 2;
-  var x = imgsize - imgxoff;
-  context.font = '13px sans-serif';
-  canvas.width = context.measureText(text).width + 3 + imgsize - imgxoff;
-  context.font = '13px sans-serif';
-  context.textBaseline = 'bottom';
-  context.lineWidth = 4;
-  context.strokeStyle = 'black';
-  context.strokeText(text, x, y);
-  context.fillStyle = 'white';
-  context.fillText(text, x, y);
-
-  context.drawImage(markerImage, -imgxoff, 0, imgsize, imgsize);
-
-  return {
-    url: canvas.toDataURL(),
-    anchor: new google.maps.Point(8, 25)
-  }
-}
 
 function makeIcon(text) {
   var canvas = document.createElement('canvas');
@@ -752,6 +726,8 @@ function makeIcon(text) {
   context.drawImage(markerImage, -imgxoff, 0, imgsize, imgsize);
   context.font = font;
   context.textBaseline = 'bottom';
+  context.shadowColor = 'black';
+  context.shadowBlur = 8;
   context.lineWidth = 5;
   context.strokeStyle = 'black';
   context.strokeText(text, x, y);
@@ -762,7 +738,7 @@ function makeIcon(text) {
     url: canvas.toDataURL(),
     anchor: new google.maps.Point(8, 25),
     scaledSize: new google.maps.Size(canvas.width/2, canvas.height/2)
-  }
+  };
 }  
 
 function placeschanged() {
@@ -780,17 +756,7 @@ function placeschanged() {
   places.forEach(function(place) {
     
     if (!wabounds.contains(place.geometry.location)) return;
-    /*    
-    var image = {
-      url: place.icon,
-      size: new google.maps.Size(71, 71),
-      origin: new google.maps.Point(0, 0),
-      anchor: new google.maps.Point(17, 34),
-      scaledSize: new google.maps.Size(25, 25)
-    };
-    */
 
-    // Create a marker for each place.
     var marker = new google.maps.Marker({
       map: map,
       icon: makeIcon(place.name),
