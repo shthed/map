@@ -1,5 +1,5 @@
-/* jshint strict: true */
-/* global $ google dateFormat maprootJson */
+/* jshint strict:true, globalstrict:true, browser:true, devel:true */
+/* global google, $, dateFormat, maprootJson */
 "use strict";
 
 var mapcanvas;
