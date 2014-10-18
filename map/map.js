@@ -794,6 +794,7 @@ function getdates() {
 
 
 function updateimageselect() {
+  var i;
   var oldimageid = imageid;
   // [ date, type, id, name ]
   images = [];
@@ -802,7 +803,7 @@ function updateimageselect() {
     if (!lglayer) lglayer = lglayers[0][0];
     imageid = lglayer;
   }
-  for (var i in lglayers) {
+  for (i in lglayers) {
     images.push([lglayers[i][2], 'lg', lglayers[i][0], lglayers[i][1]]);
   }
 
@@ -810,7 +811,7 @@ function updateimageselect() {
     if (!nmdate) nmdate = nmdates[0];
     imageid = nmdate;
   }
-  for (var i in nmdates) {
+  for (i in nmdates) {
     images.push([nmdates[i], 'nm', nmdates[i], 'nearmap']);
   }
 
@@ -822,7 +823,7 @@ function updateimageselect() {
   imageselect.innerHTML = '';
 
   //for (var i = 0; i < images.length; i++) {
-  for (var i in images) {
+  for (i in images) {
     var option = document.createElement("option");
     option.setAttribute("value", images[i][2]);
     if (images[i][1] == 'lg') {
@@ -993,7 +994,7 @@ function selectoverlays() {
   overlays = {};
   //opts = overlayselect.selectedOptions;  // not supported in IE
 
-  $(overlayselect).find(":selected").each(function() {
+  $(overlayselect).find("option:selected").each(function() {
     var layerid = this.value;
     overlays[layerid] = true;
     if (!prev[layerid]) {
@@ -1247,9 +1248,7 @@ function loadview() {
   if (overlays) {
     for (var l in overlays) {
       // find the option and select it
-      $(overlayselect).find("[value='" + overlays[l] + "']").each(function() {
-        this.selected = true;
-      });
+      $(overlayselect).find("option[value='" + overlays[l] + "']").prop('selected', true);
     }
     $(overlayselect).trigger('chosen:updated');
     selectoverlays();
@@ -1384,9 +1383,10 @@ var mapTypeIds = [];
 var initialmap;
 
 function initialize() {
+  var l, layer;
   // set default id and name
-  for (var layer in layers) {
-    var l = layers[layer];
+  for (layer in layers) {
+    l = layers[layer];
     if (!l.id) {
       l.id = layer;
     }
@@ -1401,8 +1401,8 @@ function initialize() {
   for (var m in google.maps.MapTypeId) {
     mapTypeIds.push(google.maps.MapTypeId[m]);
   }
-  for (var layer in layers) {
-    var l = layers[layer];
+  for (layer in layers) {
+    l = layers[layer];
     if (l.base) {
       mapTypeIds.push(l.id);
     }
@@ -1427,8 +1427,8 @@ function initialize() {
   google.maps.event.addListener(map, 'idle', mapidle);
 
   // install base layers
-  for (var layer in layers) {
-    var l = layers[layer];
+  for (layer in layers) {
+    l = layers[layer];
     if (l.base && l.type && (typeof l.type === "object") && !(l.disabled)) {
       map.mapTypes.set(l.id, l.type);
     }
