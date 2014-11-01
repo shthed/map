@@ -555,7 +555,7 @@ function getEarthBuilderMapType(layerid, name) {
 // "09372590152434720789-00913315481290556980-4"
 var slipid = maprootJson.id;
 
-var slipMapType = getEarthBuilderMapType(slipid + "/10:110", "SLIP"); // aerial photography
+var slipMapType = getEarthBuilderMapType(slipid + "/9:114", "SLIP"); // aerial photography
 
 // https://mapsengine.google.com/09372590152434720789-00913315481290556980-4/wmts/?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0
 // locate wmts layer
@@ -1209,10 +1209,10 @@ function saveview() {
   var z = map.getZoom();
   if (pt && z) {
     var view = '#' + pt.lat().toFixed(z / 3) + ',' + pt.lng().toFixed(z / 3) + ',' + map.getZoom();
-
-    if (map.getMapTypeId()) {
-      view += ',' + map.getMapTypeId();
-    }
+    
+    view += ',' + map.getMapTypeId();
+    
+    //view += ',' + encodeURIComponent(searchInput.value).replace(/%20/g, "+");
 
     $(overlayselect).find(":selected").each(function() {
       view += ',' + this.value;
@@ -1226,10 +1226,13 @@ function loadview() {
   isloadingview = true;
   // map.html#lat,long,zoom[,base][,overlay...]
   var params = window.location.hash.substr(1).split(',');
-  var view = params.slice(0, 3).map(Number);
+  var view = params.slice(0, 3).map(parseFloat);
   var maptype = params[3];
-  var overlays = params.slice(4); // all other params
-
+  //var query = decodeURIComponent(params[4]).replace(/\+/g, "+");
+  if (params[4]) {
+    var overlays = params[4].split('&');
+  }
+  
   if (!isNaN(view[0]) && !isNaN(view[1]) && !isNaN(view[2])) {
     map.setCenter(new google.maps.LatLng(view[0], view[1]));
     map.setZoom(view[2]);
@@ -1441,6 +1444,7 @@ function initialize() {
     map.setMapTypeId(initialmap); // set initial base layer
     geolocate();
   }
+  window.addEventListener("hashchange", loadview);
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
