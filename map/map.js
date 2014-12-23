@@ -1209,14 +1209,14 @@ function saveview() {
   var z = map.getZoom();
   if (pt && z) {
     var view = '#' + pt.lat().toFixed(z / 3) + ',' + pt.lng().toFixed(z / 3) + ',' + map.getZoom();
-    
     view += ',' + map.getMapTypeId();
-    
-    //view += ',' + encodeURIComponent(searchInput.value).replace(/%20/g, "+");
 
-    $(overlayselect).find(":selected").each(function() {
-      view += ',' + this.value;
-    });
+    var olays = Object.keys(overlays).join('&');
+    if (olays) {
+      view += ',' + olays;
+    }
+
+    //view += ',' + encodeURIComponent(searchInput.value).replace(/%20/g, "+");
 
     window.history.replaceState({}, 'map', view);
   }
@@ -1228,9 +1228,10 @@ function loadview() {
   var params = window.location.hash.substr(1).split(',');
   var view = params.slice(0, 3).map(parseFloat);
   var maptype = params[3];
+  var olays;
   //var query = decodeURIComponent(params[4]).replace(/\+/g, "+");
   if (params[4]) {
-    var overlays = params[4].split('&');
+    olays = params[4].split('&');
   }
   
   if (!isNaN(view[0]) && !isNaN(view[1]) && !isNaN(view[2])) {
@@ -1248,10 +1249,10 @@ function loadview() {
     map.setMapTypeId(initialmap);
   }
 
-  if (overlays) {
-    for (var l in overlays) {
+  if (olays) {
+    for (var l in olays) {
       // find the option and select it
-      $(overlayselect).find("option[value='" + overlays[l] + "']").prop('selected', true);
+      $(overlayselect).find("option[value='" + olays[l] + "']").prop('selected', true);
     }
     $(overlayselect).trigger('chosen:updated');
     selectoverlays();
