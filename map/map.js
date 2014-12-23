@@ -25,6 +25,7 @@ var controlDiv;
 var enableNearmap;
 var overlayselect; // chosen multi <select> combobox chozen
 var overlayopacity; // overlay opacity range input
+var geobtn; //geolocate button
 
 var searchInput; // places search html input
 var searchBox; // places.SearchBox
@@ -673,6 +674,16 @@ function createControls() {
   map.controls[google.maps.ControlPosition.TOP_LEFT].push(searchInput);
   searchBox = new google.maps.places.SearchBox(searchInput);
   google.maps.event.addListener(searchBox, 'places_changed', placeschanged);
+
+  geobtn = document.createElement('button');
+  geobtn.title = 'geolocation';
+  geobtn.style.cursor = 'pointer';
+  geobtn.style.backgroundColor = 'white';
+  geobtn.innerHTML = '&odot;';
+  //controlDiv.appendChild(geobtn);
+  google.maps.event.addDomListener(geobtn, 'click', geobtnclick);
+  map.controls[google.maps.ControlPosition.BOTTOM_LEFT].push(geobtn);
+
 }
 
 
@@ -1262,13 +1273,62 @@ function loadview() {
 }
 
 
+var geomarker;
+var geopos;
+var geomarkerurl = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAAAF96VFh0UmF3IHByb2ZpbGUgdHlwZSBBUFAxAABo3uNKT81LLcpMVigoyk/LzEnlUgADYxMuE0sTS6NEAwMDCwMIMDQwMDYEkkZAtjlUKNEABZgamFmaGZsZmgMxiM8FAEi2FMnxHlGkAAADqElEQVRo3t1aTWgTQRQOiuDPQfHs38GDogc1BwVtQxM9xIMexIN4EWw9iAehuQdq0zb+IYhglFovClXQU+uhIuqh3hQll3iwpyjG38Zkt5uffc4XnHaSbpLZ3dnEZOBB2H3z3jeZN+9vx+fzYPgTtCoQpdVHrtA6EH7jme+/HFFawQBu6BnWNwdGjB2BWH5P32jeb0V4B54KL5uDuW3D7Y/S2uCwvrUR4GaEuZABWS0FHhhd2O4UdN3FMJneLoRtN7Y+GMvvUw2eE2RDh3LTOnCd1vQN5XZ5BXwZMV3QqQT84TFa3zuU39sy8P8IOqHb3T8fpY1emoyMSQGDI/Bwc+0ELy6i4nLtepp2mE0jc5L3UAhMsdxut0rPJfRDN2eMY1enF8Inbmj7XbtZhunkI1rZFD/cmFMlr1PFi1/nzSdGkT5RzcAzvAOPU/kVF9s0ujqw+9mP5QgDmCbJAV7McXIeGpqS3Qg7OVs4lTfMD1Yg9QLR518mZbImFcvWC8FcyLAbsev++3YETb0tn2XAvouAvjGwd14YdCahUTCWW6QQIzzDO/CIAzKm3pf77ei23AUkVbICHr8pnDZNynMQJfYPT7wyKBzPVQG3IvCAtyTsCmRBprQpMawWnkc+q2Rbn+TK/+gmRR7qTYHXEuZkdVM0p6SdLLYqX0LItnFgBxe3v0R04b5mGzwnzIUMPiBbFkdVmhGIa5tkJ4reZvyl4Rg8p3tMBh+FEqUduVRUSTKTnieL58UDG76cc70AyMgIBxs6pMyIYV5agKT9f/ltTnJFOIhuwXOCLD6gQ/oc8AJcdtuYb09xRQN3NWULgCwhfqSk3SkaBZViRTK3EYNUSBF4Hic0Y8mM+if0HhlMlaIHbQ8Z5lszxnGuIP2zrAw8J8jkA7pkMAG79AKuPTOOcgWZeVP5AsSDjAxWegGyJoSUWAj/FBpRa0JiviSbfldMqOMPcce7UVeBLK4gkMVVBLI2phLjKlIJm8lcxMNkLuIomXOTTmc1kwYf2E+nMQdzlaTTKgoaZJWyBQ141RY0DkrK6XflAQbih1geZnhJeXu5WeEZ3mVqSkrIgCzXJaXqoh65TUuLerdtFXgQ2bYKeD1pq6hobLE86SlztXMWvaA5vPO0sYWB9p2K1iJS4ra0Fju/udsN7fWu+MDRFZ+YuuIjX1d8Zu2OD92WC9G3ub1qABktBV7vssfBMX1L7yVjZ7PLHuABb9svezS7boNDyK/b4LdX123+Au+jOmNxrkG0AAAAAElFTkSuQmCC';
+
 function geolocated(pos) {
-  map.setCenter(new google.maps.LatLng(pos.coords.latitude, pos.coords.longitude));
-  // convert position accuracy into zoom level
-  var x = window.innerWidth;
-  var y = window.innerHeight;
-  var zoom = Math.round(18 - Math.log(3.3 * pos.coords.accuracy / Math.sqrt(x * x + y * y)) / Math.log(2));
-  map.setZoom(zoom);
+  geopos = pos;
+  log('geo:'+pos.coords.latitude+' '+pos.coords.longitude);
+
+  if (!geomarker) {
+    // if first time
+    map.setCenter(new google.maps.LatLng(pos.coords.latitude, pos.coords.longitude));
+    // convert position accuracy into zoom level
+    var x = window.innerWidth;
+    var y = window.innerHeight;
+    var zoom = Math.round(18 - Math.log(3.3 * pos.coords.accuracy / Math.sqrt(x * x + y * y)) / Math.log(2));
+    map.setZoom(zoom);
+
+    geomarker = new google.maps.Marker({
+      map: map,
+      title: 'geolocation',
+      icon: {
+        url: geomarkerurl,
+        size: new google.maps.Size(42, 42),
+        scaledSize: new google.maps.Size(21, 21),
+        origin: new google.maps.Point(0,0),
+        anchor: new google.maps.Point(10, 10)
+      },
+      position: {lat: pos.coords.latitude, lng: pos.coords.longitude }
+    });
+  }
+  else {
+    geomarker.setPosition({lat: pos.coords.latitude, lng: pos.coords.longitude });
+  }
+}
+
+function geowatch() {
+  geowpid = navigator.geolocation.watchPosition(geolocated, null, { enableHighAccuracy: true });
+  geobtn.innerHTML = '&odot;';
+  geobtn.style.backgroundColor = 'lightblue';
+}
+
+function geoclear() {
+  // enabled
+  navigator.geolocation.clearWatch(geowpid);
+  geowpid = undefined;
+  geobtn.innerHTML = '&odash;';
+  geobtn.style.backgroundColor = 'white';
+}
+
+function geobtnclick() {
+  if (geowpid) {
+    geoclear();
+  }
+  else {
+    geowatch();
+  }
 }
 
 function geofail() {
@@ -1283,9 +1343,13 @@ function geofail() {
   // should have another fallback..
 }
 
+var geowpid;
+
 function geolocate() {
+  log('geolocating..');
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(geolocated, geofail);
+    geowatch();
   }
   else {
     geofail();
