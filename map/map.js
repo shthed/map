@@ -26,6 +26,7 @@ var enableNearmap;
 var overlayselect; // chosen multi <select> combobox chozen
 var overlayopacity; // overlay opacity range input
 var geobtn; //geolocate button
+var rulerbtn; //ruler button
 
 var searchInput; // places search html input
 var searchBox; // places.SearchBox
@@ -680,11 +681,83 @@ function createControls() {
   geobtn.style.cursor = 'pointer';
   geobtn.style.backgroundColor = 'white';
   geobtn.innerHTML = '&odot;';
-  //controlDiv.appendChild(geobtn);
   google.maps.event.addDomListener(geobtn, 'click', geobtnclick);
   map.controls[google.maps.ControlPosition.BOTTOM_LEFT].push(geobtn);
 
+  rulerbtn = document.createElement('button');
+  rulerbtn.title = 'ruler';
+  rulerbtn.style.cursor = 'pointer';
+  rulerbtn.style.backgroundColor = 'white';
+  rulerbtn.innerHTML = 'ruler';
+  google.maps.event.addDomListener(rulerbtn, 'click', rulerbtnclick);
+  map.controls[google.maps.ControlPosition.BOTTOM_LEFT].push(rulerbtn);
+
 }
+
+
+// ruler
+var ruler1;
+var ruler2;
+var rulerpoly;
+var rulerlabel;
+var rulerdist;
+var rulerbounds;
+
+function rulerdrag() {
+    rulerpoly.setPath([ruler1.getPosition(), ruler2.getPosition()]);
+    rulerdist = google.maps.geometry.spherical.computeDistanceBetween(ruler1.getPosition(), ruler2.getPosition());
+    rulerdist = Math.round(rulerdist);
+    rulerbounds = new google.maps.LatLngBounds();
+    rulerbounds.extend(ruler1.getPosition());
+    rulerbounds.extend(ruler2.getPosition());
+    rulerlabel.set('position', rulerbounds.getCenter());
+    rulerlabel.set('text', rulerdist);
+    if ((ruler1.position.lat() - ruler2.position.lat()) / (ruler1.position.lng() - ruler2.position.lng()) < 0 ) {
+      rulerlabel.set('valign', 'top');
+    } else {
+      rulerlabel.set('valign', 'bottom');
+    }
+}
+
+function rulerbtnclick() {
+
+  if (ruler1 && ruler1.map) {
+    rulerpoly.setMap();
+    ruler1.setMap();
+    ruler2.setMap();
+    rulerlabel.setMap();
+    return;
+  }
+  
+  ruler1 = new google.maps.Marker({
+    position: map.getCenter() ,
+    map: map,
+    draggable: true
+  });
+  ruler2 = new google.maps.Marker({
+    position: map.getCenter() ,
+    map: map,
+    draggable: true
+  });
+
+  rulerpoly = new google.maps.Polyline({
+    path: [ruler1.position, ruler2.position] ,
+    strokeColor: "#FFFF00",
+    strokeOpacity: 0.7,
+    strokeWeight: 5,
+    map: map
+  });
+
+  rulerlabel = new MapLabel({
+    map: map,
+    fontSize: 18,
+    align: 'left'
+  });
+  
+  google.maps.event.addListener(ruler1, 'drag', rulerdrag);
+  google.maps.event.addListener(ruler2, 'drag', rulerdrag);
+}
+
 
 
 // places search
