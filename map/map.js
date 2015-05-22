@@ -1,5 +1,14 @@
 /* jshint strict:true, globalstrict:true, browser:true, devel:true */
-/* global google, $, dateFormat, maprootJson */
+/* global google, $, dateFormat, maprootJson, MapLabel */
+
+/* todo
+ mobile interface
+  detect screen size and hide things
+ use MapLabel for my search result icons
+ using Drawling Library for the ruler to do polyline
+  allow saving points to local or google storage
+*/
+
 "use strict";
 
 var mapcanvas;
@@ -704,23 +713,22 @@ var rulerdist;
 var rulerbounds;
 
 function rulerdrag() {
-    rulerpoly.setPath([ruler1.getPosition(), ruler2.getPosition()]);
-    rulerdist = google.maps.geometry.spherical.computeDistanceBetween(ruler1.getPosition(), ruler2.getPosition());
-    rulerdist = Math.round(rulerdist);
-    rulerbounds = new google.maps.LatLngBounds();
-    rulerbounds.extend(ruler1.getPosition());
-    rulerbounds.extend(ruler2.getPosition());
-    rulerlabel.set('position', rulerbounds.getCenter());
-    rulerlabel.set('text', rulerdist);
-    if ((ruler1.position.lat() - ruler2.position.lat()) / (ruler1.position.lng() - ruler2.position.lng()) < 0 ) {
-      rulerlabel.set('valign', 'top');
-    } else {
-      rulerlabel.set('valign', 'bottom');
-    }
+  rulerpoly.setPath([ruler1.getPosition(), ruler2.getPosition()]);
+  rulerdist = google.maps.geometry.spherical.computeDistanceBetween(ruler1.getPosition(), ruler2.getPosition());
+  rulerdist = Math.round(rulerdist);
+  rulerbounds = new google.maps.LatLngBounds();
+  rulerbounds.extend(ruler1.getPosition());
+  rulerbounds.extend(ruler2.getPosition());
+  rulerlabel.set('position', rulerbounds.getCenter());
+  rulerlabel.set('text', rulerdist);
+  if ((ruler1.position.lat() - ruler2.position.lat()) / (ruler1.position.lng() - ruler2.position.lng()) < 0 ) {
+    rulerlabel.set('valign', 'top');
+  } else {
+    rulerlabel.set('valign', 'bottom');
+  }
 }
 
 function rulerbtnclick() {
-
   if (ruler1 && ruler1.map) {
     rulerpoly.setMap();
     ruler1.setMap();
@@ -730,12 +738,12 @@ function rulerbtnclick() {
   }
   
   ruler1 = new google.maps.Marker({
-    position: map.getCenter() ,
+    position: map.getCenter(),
     map: map,
     draggable: true
   });
   ruler2 = new google.maps.Marker({
-    position: map.getCenter() ,
+    position: map.getCenter(),
     map: map,
     draggable: true
   });

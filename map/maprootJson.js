@@ -1,13 +1,13 @@
-        var maprootJson = {
+ var maprootJson = {
   "id": "09372590152434720789-00913315481290556980-4",
   "title": "Locate",
-  "description": "Locate is a revolutionary online tool that opens up a wealth of Western Australian location information from many different WA sources all provided in a single link for you. To learn more about Locate click \u003ca href\u003d\"http://slipfuture.landgate.wa.gov.au/Pages/LocateGettingStarted.aspx\" target\u003d\"_blank\"\u003ehere.\u003c/a\u003e \u003cbr/\u003e\u003cbr/\u003e\u003ca href\u003d\"http://slipfuture.landgate.wa.gov.au/Pages/LocateHelpAndFAQs.aspx\" target\u003d\"_blank\"\u003eHelp \u0026amp; FAQs\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e\u003ca href\u003d\"http://slipfuture.landgate.wa.gov.au/Pages/LocateDataProviders.aspx\" target\u003d\"_blank\"\u003eData Providers\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e\u003ca href\u003d\"http://slipfuture.landgate.wa.gov.au/Pages/LocateTermsandConditions.aspx\" target\u003d\"_blank\"\u003eTerms and Conditions\u003c/a\u003e\u003cbr/\u003e\u003cbr/\u003e\n\u003cimg src\u003d\"https://ngisslip-web.sharepoint.com/SiteImages/_w/SLIP_Locate_Logo_jpg.jpg\" width\u003d\"255\" height\u003d\"42\"/\u003e\u003c/img\u003e",
+  "description": "Locate a is revolutionary online tool that opens up a wealth of Western Australian location information from many different WA sources all provided in a single link for you. To learn more about Locate click \u003ca href\u003d\"http://slipfuture.landgate.wa.gov.au/Pages/LocateGettingStarted.aspx\" target\u003d\"_blank\"\u003ehere.\u003c/a\u003e \u003cbr/\u003e\u003cbr/\u003e\u003ca href\u003d\"http://slipfuture.landgate.wa.gov.au/Pages/LocateHelpAndFAQs.aspx\" target\u003d\"_blank\"\u003eHelp \u0026amp; FAQs\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e\u003ca href\u003d\"http://slipfuture.landgate.wa.gov.au/Pages/LocateDataProviders.aspx\" target\u003d\"_blank\"\u003eData Providers\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e\u003ca href\u003d\"http://slipfuture.landgate.wa.gov.au/Pages/LocateTermsandConditions.aspx\" target\u003d\"_blank\"\u003eTerms and Conditions\u003c/a\u003e\u003cbr/\u003e\u003cbr/\u003e\n\u003cimg src\u003d\"https://ngisslip-web.sharepoint.com/SiteImages/_w/SLIP_Locate_Logo_jpg.jpg\" width\u003d\"255\" height\u003d\"42\"/\u003e\u003c/img\u003e",
   "viewport": {
     "lat_lon_alt_box": {
-      "north": -3.2735736301790808,
-      "south": -43.342200294012436,
-      "east": 175.76185863749993,
-      "west": 66.16224926249993
+      "north": -10.726786623018878,
+      "south": -39.48818885422941,
+      "east": 156.77748163749993,
+      "west": 82.94935663749993
     }
   },
   "layers": [
@@ -53,7 +53,7 @@
                 "google_maps_engine": {
                   "sub_type": "VECTOR",
                   "vector_layer": {
-                    "vector_layer_id": "o:ANVwnM1C-X-zxRMoK-INgtxnw7vOl_CNGR4-wzdxJgEf5tMXn2OU62zZLR5167vqc8Ps2UkAkMawSnZ0Xh_wexXR",
+                    "vector_layer_id": "o:ADRg3Zd1cXgSC_O4JijuXHLwvo35P_HVpK4BLXD_sHeXzzBrtqSkDo2yXCsNB4YAdUAK1pvR7qvcKK2MveOiToZZ",
                     "layer_parameters": [
                       {
                         "key": "um",
@@ -68,7 +68,7 @@
                 "lat_lon_alt_box": {
                   "north": -10.41379496143682,
                   "south": -35.18620560015069,
-                  "east": 129.00192884356503,
+                  "east": 129.00191874337168,
                   "west": 96.8168171236918
                 },
                 "display_bounds": false
@@ -78,7 +78,7 @@
                 "lat_lon_alt_box": {
                   "north": -10.41379496143682,
                   "south": -35.18620560015069,
-                  "east": 129.00192884356503,
+                  "east": 129.00191874337168,
                   "west": 96.8168171236918
                 }
               }
@@ -90,7 +90,7 @@
                 "google_maps_engine": {
                   "sub_type": "VECTOR",
                   "vector_layer": {
-                    "vector_layer_id": "o:ANVwnM0PnZLQrjbRVzyJ3J3Y94ipTmOSORUMZsn1t9bQh1Mj5iW7VpDzMFFx1796N_XL9DyGe6IojiV3JaC74XLI",
+                    "vector_layer_id": "o:ADRg3Ze45TiOPEVyOPfo0v0hHiQVVx9wW9UlTWeq02KNflPDXpV2_luLzFrQBPwau1cr_PfO08eN5rWY4dBjxcxA",
                     "layer_parameters": [
                       {
                         "key": "um",
@@ -105,7 +105,7 @@
                 "lat_lon_alt_box": {
                   "north": -10.412389861093423,
                   "south": -35.180887282568534,
-                  "east": 129.0019274186415,
+                  "east": 129.00191874337168,
                   "west": 96.81694139937662
                 },
                 "display_bounds": false
@@ -115,7 +115,7 @@
                 "lat_lon_alt_box": {
                   "north": -10.412389861093423,
                   "south": -35.180887282568534,
-                  "east": 129.0019274186415,
+                  "east": 129.00191874337168,
                   "west": 96.81694139937662
                 }
               }
@@ -126,7 +126,7 @@
             "lat_lon_alt_box": {
               "north": -10.412389861093423,
               "south": -35.18620560015069,
-              "east": 129.00192884356503,
+              "east": 129.00191874337168,
               "west": 96.8168171236918
             },
             "display_bounds": false
@@ -137,7 +137,7 @@
             "lat_lon_alt_box": {
               "north": -10.412389861093423,
               "south": -35.18620560015069,
-              "east": 129.00192884356503,
+              "east": 129.00191874337168,
               "west": 96.8168171236918
             }
           }
@@ -149,7 +149,7 @@
             "google_maps_engine": {
               "sub_type": "VECTOR",
               "vector_layer": {
-                "vector_layer_id": "o:ANVwnM3ZqYKnPxrjFeqR51pfcHFaLO5zqUb8agl0vxM79ekry5MHBt4xoWNZq-DBsD8E7fUma9fMRmr-_7iZ5Ixi",
+                "vector_layer_id": "o:ADRg3Ze1XvGZiNH8SUss7d9CqP5WOLw4ABPu3PC_7I-dPeY62G88s6yW6RYBZy52OoCWk-gtkUENoFTGRwEX0QFc",
                 "layer_parameters": [
                   {
                     "key": "um",
@@ -185,7 +185,7 @@
         "lat_lon_alt_box": {
           "north": -10.412389861093423,
           "south": -35.18620560015069,
-          "east": 129.00192884356503,
+          "east": 129.00191874337168,
           "west": 96.8168171236918
         },
         "display_bounds": false
@@ -196,7 +196,7 @@
         "lat_lon_alt_box": {
           "north": -10.412389861093423,
           "south": -35.18620560015069,
-          "east": 129.00192884356503,
+          "east": 129.00191874337168,
           "west": 96.8168171236918
         }
       }
@@ -213,13 +213,13 @@
               "sub_type": "IMAGE",
               "image_layer": {
                 "asset_id": "09372590152434720789-00913315481290556980-4/9",
-                "epoch": 114,
+                "epoch": 118,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "CghDecKy1JFiZhDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "CgjRfSoVVb7ZoBCG6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302726
               }
             }
           },
@@ -261,8 +261,8 @@
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "CgjlwGgUEw-WbhDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "CggH6XgkxgYUMhCG6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302726
                   }
                 }
               },
@@ -300,8 +300,8 @@
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "CggyPRGFk0-AORDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "Cghp3Axcgf5M_hCG6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302726
                   }
                 }
               },
@@ -339,8 +339,8 @@
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "CgiJAxGfFmVunxDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "Cggkfp4InikHphCG6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302726
                   }
                 }
               },
@@ -404,8 +404,8 @@
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "CgiW3ShNas7V1BDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "Cgj_3pTikLjRQxCG6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302726
                   }
                 }
               },
@@ -438,13 +438,13 @@
                   "sub_type": "IMAGE",
                   "image_layer": {
                     "asset_id": "09372590152434720789-00913315481290556980-4/16",
-                    "epoch": 3,
+                    "epoch": 5,
                     "tile_height": 256,
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "Cgj5CnHpW4WP8BDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "CgjLNEDY-asu0BCG6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302726
                   }
                 }
               },
@@ -482,8 +482,8 @@
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "Cgi8OzFVFHIQFBDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "CgiH07ClWYX16RCG6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302726
                   }
                 }
               },
@@ -516,13 +516,13 @@
                   "sub_type": "IMAGE",
                   "image_layer": {
                     "asset_id": "09372590152434720789-00913315481290556980-4/18",
-                    "epoch": 3,
+                    "epoch": 5,
                     "tile_height": 256,
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "CghJ6-K7PyrUmxDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "CggX5XL1COBU_RCG6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302726
                   }
                 }
               },
@@ -555,13 +555,13 @@
                   "sub_type": "IMAGE",
                   "image_layer": {
                     "asset_id": "09372590152434720789-00913315481290556980-4/19",
-                    "epoch": 3,
+                    "epoch": 6,
                     "tile_height": 256,
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "CgjvHAjQw2PDTBDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "Cgh2VACHQ6w-ixCG6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302726
                   }
                 }
               },
@@ -594,13 +594,13 @@
                   "sub_type": "IMAGE",
                   "image_layer": {
                     "asset_id": "09372590152434720789-00913315481290556980-4/20",
-                    "epoch": 3,
+                    "epoch": 6,
                     "tile_height": 256,
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "Cgi1p6-3DUZn9xDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "CggaVfONMbbZihCG6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302726
                   }
                 }
               },
@@ -633,13 +633,13 @@
                   "sub_type": "IMAGE",
                   "image_layer": {
                     "asset_id": "09372590152434720789-00913315481290556980-4/21",
-                    "epoch": 3,
+                    "epoch": 5,
                     "tile_height": 256,
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "CgiCFgmYFJV9ghDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "CgiN2CLNZNMY5xCG6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302726
                   }
                 }
               },
@@ -672,13 +672,13 @@
                   "sub_type": "IMAGE",
                   "image_layer": {
                     "asset_id": "09372590152434720789-00913315481290556980-4/22",
-                    "epoch": 4,
+                    "epoch": 6,
                     "tile_height": 256,
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "CgjSrlOIAnhDUhDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "Cghfr3yVvAbr0RCG6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302726
                   }
                 }
               },
@@ -716,8 +716,8 @@
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "CggZJAqBgLAmUhDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "CgiPzZoo-_88fBCG6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302726
                   }
                 }
               },
@@ -755,8 +755,8 @@
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "CghmmTC3v4VP7RDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "Cgi-zBVsH8uICBCG6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302726
                   }
                 }
               },
@@ -794,8 +794,8 @@
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "CgjeqSlR_bzJRhDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "CghveKVi4IUXABCG6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302726
                   }
                 }
               },
@@ -833,8 +833,8 @@
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "CggHqcnYNzZ9XBDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "Cgipehq7nftZ-RCG6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302726
                   }
                 }
               },
@@ -872,8 +872,8 @@
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "CgjD6KnmRCKFVRDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "CggxIJqiABsy-BCG6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302726
                   }
                 }
               },
@@ -911,8 +911,8 @@
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "Cgj25tXvLccfZhDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "CgglG1P98MtxfxCG6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302726
                   }
                 }
               },
@@ -945,13 +945,13 @@
                   "sub_type": "IMAGE",
                   "image_layer": {
                     "asset_id": "09372590152434720789-00913315481290556980-4/29",
-                    "epoch": 2,
+                    "epoch": 4,
                     "tile_height": 256,
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "CgjQBoRvXRNaJRDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "CgjDNxpbgvnmAxCG6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302726
                   }
                 }
               },
@@ -989,8 +989,8 @@
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "Cghb_PbN1yPcMhDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "CggRIgChokAAtRCG6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302726
                   }
                 }
               },
@@ -1028,8 +1028,8 @@
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "CghMzCwVWN1QohDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "CgjP0ePFPFwmzRCG6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302726
                   }
                 }
               },
@@ -1067,8 +1067,8 @@
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "CghxXr6CA6kGoRDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "CgjXiwzB1VksRhCG6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302726
                   }
                 }
               },
@@ -1106,8 +1106,8 @@
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "CgjeDirK6AOcrBDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "Cgjmy3DJPBGapxCG6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302726
                   }
                 }
               },
@@ -1145,8 +1145,8 @@
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "CgjzWQyBvH1roRDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "CgjpFr1bT4aoyhCG6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302726
                   }
                 }
               },
@@ -1184,8 +1184,8 @@
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "CgiLHVY5MKtJYhDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "CggvMAIxUERc_RCG6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302726
                   }
                 }
               },
@@ -1223,8 +1223,8 @@
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "CggEHeh91h85EBDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "CgiqJJZG-U5paRCG6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302726
                   }
                 }
               },
@@ -1262,8 +1262,8 @@
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "Cgg8khitQHWbfxDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "Cgj8n7bpTrRxjRCG6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302726
                   }
                 }
               },
@@ -1301,8 +1301,8 @@
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "CghRSq52-_Y3kxDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "CghAl9JgqEVZIRCG6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302726
                   }
                 }
               },
@@ -1340,8 +1340,8 @@
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "Cgg0mMJ-BiLV2xDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "CgjPtLjztvsjKxCG6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302726
                   }
                 }
               },
@@ -1379,8 +1379,8 @@
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "CggHlULyh_xY3BDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "Cghg29-MflRSzRCG6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302726
                   }
                 }
               },
@@ -1402,6 +1402,930 @@
                   "south": -32.2349695658678,
                   "east": 125.39573291413541,
                   "west": 125.32577515840208
+                }
+              }
+            },
+            {
+              "id": "09372590152434720789-05531716422238543632-4",
+              "type": "GOOGLE_MAPS_ENGINE",
+              "source": {
+                "google_maps_engine": {
+                  "sub_type": "VECTOR",
+                  "vector_layer": {
+                    "vector_layer_id": "o:ADRg3ZcN3h27U9pxJdmOR8rp0tgXaLwN6h7KIV45Xf4N1f5Be4NJCwiCX41XLnJsNQXhDHhSAnT5n_pjy60zjnWu",
+                    "layer_parameters": [
+                      {
+                        "key": "um",
+                        "value": "1"
+                      }
+                    ]
+                  }
+                }
+              },
+              "title": "The Maze \u2013 1983 (Boundary)",
+              "viewport": {
+                "lat_lon_alt_box": {
+                  "north": -31.651584848072293,
+                  "south": -31.655025865345845,
+                  "east": 115.9604587113023,
+                  "west": 115.9565289057207
+                },
+                "display_bounds": false
+              },
+              "visibility": "DEFAULT_OFF",
+              "full_extent": {
+                "lat_lon_alt_box": {
+                  "north": -31.651584848072293,
+                  "south": -31.655025865345845,
+                  "east": 115.9604587113023,
+                  "west": 115.9565289057207
+                }
+              }
+            },
+            {
+              "id": "09372590152434720789-10942496288188327744-4",
+              "type": "GOOGLE_MAPS_ENGINE",
+              "source": {
+                "google_maps_engine": {
+                  "sub_type": "IMAGE",
+                  "image_layer": {
+                    "asset_id": "09372590152434720789-00913315481290556980-4/42",
+                    "epoch": 2,
+                    "tile_height": 256,
+                    "tile_width": 256
+                  },
+                  "tile_auth_token": {
+                    "token": "Cgh2leVtybGh0xCG6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302726
+                  }
+                }
+              },
+              "title": "The Maze \u2013 1983",
+              "viewport": {
+                "lat_lon_alt_box": {
+                  "north": -31.649740388694415,
+                  "south": -31.656327456297046,
+                  "east": 115.96303768966094,
+                  "west": 115.95334209308263
+                },
+                "display_bounds": false
+              },
+              "visibility": "DEFAULT_OFF",
+              "opacity": 100,
+              "full_extent": {
+                "lat_lon_alt_box": {
+                  "north": -31.649740388694415,
+                  "south": -31.656327456297046,
+                  "east": 115.96303768966094,
+                  "west": 115.95334209308263
+                }
+              }
+            },
+            {
+              "id": "09372590152434720789-11690455056311377863-4",
+              "type": "GOOGLE_MAPS_ENGINE",
+              "source": {
+                "google_maps_engine": {
+                  "sub_type": "VECTOR",
+                  "vector_layer": {
+                    "vector_layer_id": "o:ADRg3Zf9XmBcMmBP3hnDh866KvrgZdCCC5nHTAaB0f5_ndRImq5NFKOWGW53zDGOKRHJD3e5yE_sg3LEKuTjxPF1",
+                    "layer_parameters": [
+                      {
+                        "key": "um",
+                        "value": "1"
+                      }
+                    ]
+                  }
+                }
+              },
+              "title": "Adventure World \u2013 1983 (Boundary)",
+              "viewport": {
+                "lat_lon_alt_box": {
+                  "north": -32.09365231677337,
+                  "south": -32.09774627539297,
+                  "east": 115.82033785135552,
+                  "west": 115.81587357683449
+                },
+                "display_bounds": false
+              },
+              "visibility": "DEFAULT_OFF",
+              "full_extent": {
+                "lat_lon_alt_box": {
+                  "north": -32.09365231677337,
+                  "south": -32.09774627539297,
+                  "east": 115.82033785135552,
+                  "west": 115.81587357683449
+                }
+              }
+            },
+            {
+              "id": "09372590152434720789-00354673093581910575-4",
+              "type": "GOOGLE_MAPS_ENGINE",
+              "source": {
+                "google_maps_engine": {
+                  "sub_type": "IMAGE",
+                  "image_layer": {
+                    "asset_id": "09372590152434720789-00913315481290556980-4/44",
+                    "epoch": 2,
+                    "tile_height": 256,
+                    "tile_width": 256
+                  },
+                  "tile_auth_token": {
+                    "token": "Cgg9qvl1ptrvTBCH6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302727
+                  }
+                }
+              },
+              "title": "Adventure World \u2013 1983",
+              "viewport": {
+                "lat_lon_alt_box": {
+                  "north": -32.09047724344625,
+                  "south": -32.100911388435364,
+                  "east": 115.8255325429234,
+                  "west": 115.8101208814727
+                },
+                "display_bounds": false
+              },
+              "visibility": "DEFAULT_OFF",
+              "opacity": 100,
+              "full_extent": {
+                "lat_lon_alt_box": {
+                  "north": -32.09047724344625,
+                  "south": -32.100911388435364,
+                  "east": 115.8255325429234,
+                  "west": 115.8101208814727
+                }
+              }
+            },
+            {
+              "id": "09372590152434720789-11623008189493353569-4",
+              "type": "GOOGLE_MAPS_ENGINE",
+              "source": {
+                "google_maps_engine": {
+                  "sub_type": "VECTOR",
+                  "vector_layer": {
+                    "vector_layer_id": "o:ADRg3ZeKEXDGv8istTnbXKg9GCzJPQddSr9_lISiEl3e13eKZK1hdgZz-KEJBhmmBF54PveZww_GQnDeuh7pkuP9",
+                    "layer_parameters": [
+                      {
+                        "key": "um",
+                        "value": "1"
+                      }
+                    ]
+                  }
+                }
+              },
+              "title": "Grass Skiing Park \u2013 1981 (Boundary)",
+              "viewport": {
+                "lat_lon_alt_box": {
+                  "north": -31.5177119564473,
+                  "south": -31.52270467490455,
+                  "east": 115.6207983963901,
+                  "west": 115.6147153422947,
+                  "min_altitude": 0.0,
+                  "max_altitude": 0.0
+                },
+                "display_bounds": false
+              },
+              "visibility": "DEFAULT_OFF",
+              "full_extent": {
+                "lat_lon_alt_box": {
+                  "north": -31.5177119564473,
+                  "south": -31.52270467490455,
+                  "east": 115.6207983963901,
+                  "west": 115.6147153422947,
+                  "min_altitude": 0.0,
+                  "max_altitude": 0.0
+                }
+              }
+            },
+            {
+              "id": "09372590152434720789-15653057965089136468-4",
+              "type": "GOOGLE_MAPS_ENGINE",
+              "source": {
+                "google_maps_engine": {
+                  "sub_type": "IMAGE",
+                  "image_layer": {
+                    "asset_id": "09372590152434720789-00913315481290556980-4/46",
+                    "epoch": 2,
+                    "tile_height": 256,
+                    "tile_width": 256
+                  },
+                  "tile_auth_token": {
+                    "token": "Cgi6YUsqDpKnaBCH6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302727
+                  }
+                }
+              },
+              "title": "Grass Skiing Park \u2013 1981",
+              "viewport": {
+                "lat_lon_alt_box": {
+                  "north": -31.517491816464762,
+                  "south": -31.523090884375637,
+                  "east": 115.62195252141063,
+                  "west": 115.61379504728647
+                },
+                "display_bounds": false
+              },
+              "visibility": "DEFAULT_OFF",
+              "opacity": 100,
+              "full_extent": {
+                "lat_lon_alt_box": {
+                  "north": -31.517491816464762,
+                  "south": -31.523090884375637,
+                  "east": 115.62195252141063,
+                  "west": 115.61379504728647
+                }
+              }
+            },
+            {
+              "id": "09372590152434720789-08700306778253473899-4",
+              "type": "GOOGLE_MAPS_ENGINE",
+              "source": {
+                "google_maps_engine": {
+                  "sub_type": "VECTOR",
+                  "vector_layer": {
+                    "vector_layer_id": "o:ADRg3ZfSV0h6f1tojSP96b1VE4jiYXDKgi_x4pp4W118Nr4xce0DSUU7Js6uDXELTMa9WQaltEWCbC81KTUYUP35",
+                    "layer_parameters": [
+                      {
+                        "key": "um",
+                        "value": "1"
+                      }
+                    ]
+                  }
+                }
+              },
+              "title": "El Caballo Blanco \u2013 1985 (Boundary)",
+              "viewport": {
+                "lat_lon_alt_box": {
+                  "north": -31.80424516271669,
+                  "south": -31.80859478264463,
+                  "east": 116.3631482003285,
+                  "west": 116.35581619294568
+                },
+                "display_bounds": false
+              },
+              "visibility": "DEFAULT_OFF",
+              "full_extent": {
+                "lat_lon_alt_box": {
+                  "north": -31.80424516271669,
+                  "south": -31.80859478264463,
+                  "east": 116.3631482003285,
+                  "west": 116.35581619294568
+                }
+              }
+            },
+            {
+              "id": "09372590152434720789-17808805781070122883-4",
+              "type": "GOOGLE_MAPS_ENGINE",
+              "source": {
+                "google_maps_engine": {
+                  "sub_type": "IMAGE",
+                  "image_layer": {
+                    "asset_id": "09372590152434720789-00913315481290556980-4/48",
+                    "epoch": 2,
+                    "tile_height": 256,
+                    "tile_width": 256
+                  },
+                  "tile_auth_token": {
+                    "token": "CghBr2vAEa0jChCH6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302727
+                  }
+                }
+              },
+              "title": "El Caballo Blanco \u2013 1985",
+              "viewport": {
+                "lat_lon_alt_box": {
+                  "north": -31.80272646147124,
+                  "south": -31.80983380424021,
+                  "east": 116.36481675898881,
+                  "west": 116.35433066088181
+                },
+                "display_bounds": false
+              },
+              "visibility": "DEFAULT_OFF",
+              "opacity": 100,
+              "full_extent": {
+                "lat_lon_alt_box": {
+                  "north": -31.80272646147124,
+                  "south": -31.80983380424021,
+                  "east": 116.36481675898881,
+                  "west": 116.35433066088181
+                }
+              }
+            },
+            {
+              "id": "09372590152434720789-06576124530858872391-4",
+              "type": "GOOGLE_MAPS_ENGINE",
+              "source": {
+                "google_maps_engine": {
+                  "sub_type": "VECTOR",
+                  "vector_layer": {
+                    "vector_layer_id": "o:ADRg3Zf3g2NzUb3C5WJo2hC_UGJ55xurKYHx49ynH2Igj51YP0rH8apyq29nH_Iqur3_8tJlMOVZ2a8QsGcVcLc1",
+                    "layer_parameters": [
+                      {
+                        "key": "um",
+                        "value": "1"
+                      }
+                    ]
+                  }
+                }
+              },
+              "title": "Aqua Thrillway - 1983 (Boundary)",
+              "viewport": {
+                "lat_lon_alt_box": {
+                  "north": -32.047507373808,
+                  "south": -32.04915010914489,
+                  "east": 115.7538633141486,
+                  "west": 115.7521533111783
+                },
+                "display_bounds": false
+              },
+              "visibility": "DEFAULT_OFF",
+              "full_extent": {
+                "lat_lon_alt_box": {
+                  "north": -32.047507373808,
+                  "south": -32.04915010914489,
+                  "east": 115.7538633141486,
+                  "west": 115.7521533111783
+                }
+              }
+            },
+            {
+              "id": "09372590152434720789-12868249833962216801-4",
+              "type": "GOOGLE_MAPS_ENGINE",
+              "source": {
+                "google_maps_engine": {
+                  "sub_type": "IMAGE",
+                  "image_layer": {
+                    "asset_id": "09372590152434720789-00913315481290556980-4/50",
+                    "epoch": 2,
+                    "tile_height": 256,
+                    "tile_width": 256
+                  },
+                  "tile_auth_token": {
+                    "token": "CggSZEEKSCpSLxCH6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302727
+                  }
+                }
+              },
+              "title": "Aqua Thrillway - 1983",
+              "viewport": {
+                "lat_lon_alt_box": {
+                  "north": -32.046561315747134,
+                  "south": -32.05013021870877,
+                  "east": 115.75561280646804,
+                  "west": 115.75035479153684
+                },
+                "display_bounds": false
+              },
+              "visibility": "DEFAULT_OFF",
+              "opacity": 100,
+              "full_extent": {
+                "lat_lon_alt_box": {
+                  "north": -32.046561315747134,
+                  "south": -32.05013021870877,
+                  "east": 115.75561280646804,
+                  "west": 115.75035479153684
+                }
+              }
+            },
+            {
+              "id": "09372590152434720789-04611677673990968864-4",
+              "type": "GOOGLE_MAPS_ENGINE",
+              "source": {
+                "google_maps_engine": {
+                  "sub_type": "VECTOR",
+                  "vector_layer": {
+                    "vector_layer_id": "o:ADRg3Zfu5BSmZqr7PYSUm9XPQdkPTBGRPi4Hf6pWAoqhgUZB2HWKIdJzDQEFiaWA42WowvxuM9R-XSgX9u1-Jp29",
+                    "layer_parameters": [
+                      {
+                        "key": "um",
+                        "value": "1"
+                      }
+                    ]
+                  }
+                }
+              },
+              "title": "Pioneer World (Village) - 1983 (Boundary)",
+              "viewport": {
+                "lat_lon_alt_box": {
+                  "north": -32.14975851519994,
+                  "south": -32.15151398872975,
+                  "east": 116.0263337091247,
+                  "west": 116.0220029107592
+                },
+                "display_bounds": false
+              },
+              "visibility": "DEFAULT_OFF",
+              "full_extent": {
+                "lat_lon_alt_box": {
+                  "north": -32.14975851519994,
+                  "south": -32.15151398872975,
+                  "east": 116.0263337091247,
+                  "west": 116.0220029107592
+                }
+              }
+            },
+            {
+              "id": "09372590152434720789-15601262132327717853-4",
+              "type": "GOOGLE_MAPS_ENGINE",
+              "source": {
+                "google_maps_engine": {
+                  "sub_type": "IMAGE",
+                  "image_layer": {
+                    "asset_id": "09372590152434720789-00913315481290556980-4/52",
+                    "epoch": 2,
+                    "tile_height": 256,
+                    "tile_width": 256
+                  },
+                  "tile_auth_token": {
+                    "token": "CgipD8-YSpb8UBCH6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302727
+                  }
+                }
+              },
+              "title": "Pioneer World (Village) - 1983",
+              "viewport": {
+                "lat_lon_alt_box": {
+                  "north": -32.147381823245965,
+                  "south": -32.153175284402536,
+                  "east": 116.02833808480868,
+                  "west": 116.01977360408843
+                },
+                "display_bounds": false
+              },
+              "visibility": "DEFAULT_OFF",
+              "opacity": 100,
+              "full_extent": {
+                "lat_lon_alt_box": {
+                  "north": -32.147381823245965,
+                  "south": -32.153175284402536,
+                  "east": 116.02833808480868,
+                  "west": 116.01977360408843
+                }
+              }
+            },
+            {
+              "id": "09372590152434720789-07250870001081399032-4",
+              "type": "GOOGLE_MAPS_ENGINE",
+              "source": {
+                "google_maps_engine": {
+                  "sub_type": "VECTOR",
+                  "vector_layer": {
+                    "vector_layer_id": "o:ADRg3ZcRHJ3OZn9tycdFerFLohJRZLoS0cPSmnl8F0yPCJAN0H9S448CDW_VeBUWqOfKGu2fxExmSUYPzoVUtu5z",
+                    "layer_parameters": [
+                      {
+                        "key": "um",
+                        "value": "1"
+                      }
+                    ]
+                  }
+                }
+              },
+              "title": "Elizabethan Village - 1981 (Boundary)",
+              "viewport": {
+                "lat_lon_alt_box": {
+                  "north": -32.13987630528035,
+                  "south": -32.1419688866764,
+                  "east": 116.0370980050419,
+                  "west": 116.03434939002788
+                },
+                "display_bounds": false
+              },
+              "visibility": "DEFAULT_OFF",
+              "full_extent": {
+                "lat_lon_alt_box": {
+                  "north": -32.13987630528035,
+                  "south": -32.1419688866764,
+                  "east": 116.0370980050419,
+                  "west": 116.03434939002788
+                }
+              }
+            },
+            {
+              "id": "09372590152434720789-04797237427100192071-4",
+              "type": "GOOGLE_MAPS_ENGINE",
+              "source": {
+                "google_maps_engine": {
+                  "sub_type": "IMAGE",
+                  "image_layer": {
+                    "asset_id": "09372590152434720789-00913315481290556980-4/54",
+                    "epoch": 2,
+                    "tile_height": 256,
+                    "tile_width": 256
+                  },
+                  "tile_auth_token": {
+                    "token": "CgjUL0zymj22FhCI6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302728
+                  }
+                }
+              },
+              "title": "Elizabethan Village - 1981",
+              "viewport": {
+                "lat_lon_alt_box": {
+                  "north": -32.13650591237675,
+                  "south": -32.14548217678631,
+                  "east": 116.04333909601237,
+                  "west": 116.03007308152941
+                },
+                "display_bounds": false
+              },
+              "visibility": "DEFAULT_OFF",
+              "opacity": 100,
+              "full_extent": {
+                "lat_lon_alt_box": {
+                  "north": -32.13650591237675,
+                  "south": -32.14548217678631,
+                  "east": 116.04333909601237,
+                  "west": 116.03007308152941
+                }
+              }
+            },
+            {
+              "id": "09372590152434720789-15356084235033573626-4",
+              "type": "GOOGLE_MAPS_ENGINE",
+              "source": {
+                "google_maps_engine": {
+                  "sub_type": "VECTOR",
+                  "vector_layer": {
+                    "vector_layer_id": "o:ADRg3ZddIOsdAvDrQP9LYKtB3_7fAM6iz1f5lxj3NKpLYkgOZ_F51T0Cpb6emRiPu8mfApYdEpJxbTji1QJyOoPI",
+                    "layer_parameters": [
+                      {
+                        "key": "um",
+                        "value": "1"
+                      }
+                    ]
+                  }
+                }
+              },
+              "title": "Dizzy Lamb Park - 1985 (Boundary)",
+              "viewport": {
+                "lat_lon_alt_box": {
+                  "north": -31.60204487037764,
+                  "south": -31.6070268546124,
+                  "east": 115.7132112576272,
+                  "west": 115.7090301031321,
+                  "min_altitude": 0.0,
+                  "max_altitude": 0.0
+                },
+                "display_bounds": false
+              },
+              "visibility": "DEFAULT_OFF",
+              "full_extent": {
+                "lat_lon_alt_box": {
+                  "north": -31.60204487037764,
+                  "south": -31.6070268546124,
+                  "east": 115.7132112576272,
+                  "west": 115.7090301031321,
+                  "min_altitude": 0.0,
+                  "max_altitude": 0.0
+                }
+              }
+            },
+            {
+              "id": "09372590152434720789-04718723465865068253-4",
+              "type": "GOOGLE_MAPS_ENGINE",
+              "source": {
+                "google_maps_engine": {
+                  "sub_type": "IMAGE",
+                  "image_layer": {
+                    "asset_id": "09372590152434720789-00913315481290556980-4/56",
+                    "epoch": 4,
+                    "tile_height": 256,
+                    "tile_width": 256
+                  },
+                  "tile_auth_token": {
+                    "token": "CgiIEkFNevDGiBCI6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302728
+                  }
+                }
+              },
+              "title": "Dizzy Lamb Park - 1985",
+              "viewport": {
+                "lat_lon_alt_box": {
+                  "north": -31.600938722112893,
+                  "south": -31.608310921423328,
+                  "east": 115.7176137853264,
+                  "west": 115.70736917325273
+                },
+                "display_bounds": false
+              },
+              "visibility": "DEFAULT_OFF",
+              "opacity": 100,
+              "full_extent": {
+                "lat_lon_alt_box": {
+                  "north": -31.600938722112893,
+                  "south": -31.608310921423328,
+                  "east": 115.7176137853264,
+                  "west": 115.70736917325273
+                }
+              }
+            },
+            {
+              "id": "09372590152434720789-06001844212736398094-4",
+              "type": "GOOGLE_MAPS_ENGINE",
+              "source": {
+                "google_maps_engine": {
+                  "sub_type": "VECTOR",
+                  "vector_layer": {
+                    "vector_layer_id": "o:ADRg3ZcsOHpzi_4ZRCWV2CxnhRZ_i09O7Pa1mhT8KzRB8_fiZ9Eg1CPrN1D6OvO2KR1lHOtqYlA6Sdl3L_CTWfTG",
+                    "layer_parameters": [
+                      {
+                        "key": "um",
+                        "value": "1"
+                      }
+                    ]
+                  }
+                }
+              },
+              "title": "Bullen\u2019s African Lion Safari Park - 1983 (Boundary)",
+              "viewport": {
+                "lat_lon_alt_box": {
+                  "north": -31.593355131999942,
+                  "south": -31.597115686999928,
+                  "east": 115.73480004300005,
+                  "west": 115.7242087500001,
+                  "min_altitude": 0.0,
+                  "max_altitude": 0.0
+                },
+                "display_bounds": false
+              },
+              "visibility": "DEFAULT_OFF",
+              "full_extent": {
+                "lat_lon_alt_box": {
+                  "north": -31.593355131999942,
+                  "south": -31.597115686999928,
+                  "east": 115.73480004300005,
+                  "west": 115.7242087500001,
+                  "min_altitude": 0.0,
+                  "max_altitude": 0.0
+                }
+              }
+            },
+            {
+              "id": "09372590152434720789-07365458473379239731-4",
+              "type": "GOOGLE_MAPS_ENGINE",
+              "source": {
+                "google_maps_engine": {
+                  "sub_type": "IMAGE",
+                  "image_layer": {
+                    "asset_id": "09372590152434720789-00913315481290556980-4/58",
+                    "epoch": 4,
+                    "tile_height": 256,
+                    "tile_width": 256
+                  },
+                  "tile_auth_token": {
+                    "token": "CghsFJrPjDyrqxCI6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302728
+                  }
+                }
+              },
+              "title": "Bullen\u2019s African Lion Safari Park - 1983",
+              "viewport": {
+                "lat_lon_alt_box": {
+                  "north": -31.59209894944936,
+                  "south": -31.600064917336297,
+                  "east": 115.73655137626207,
+                  "west": 115.72226594959868
+                },
+                "display_bounds": false
+              },
+              "visibility": "DEFAULT_OFF",
+              "opacity": 100,
+              "full_extent": {
+                "lat_lon_alt_box": {
+                  "north": -31.59209894944936,
+                  "south": -31.600064917336297,
+                  "east": 115.73655137626207,
+                  "west": 115.72226594959868
+                }
+              }
+            },
+            {
+              "id": "09372590152434720789-14989446372575920390-4",
+              "type": "GOOGLE_MAPS_ENGINE",
+              "source": {
+                "google_maps_engine": {
+                  "sub_type": "VECTOR",
+                  "vector_layer": {
+                    "vector_layer_id": "o:ADRg3ZewX4q0H3320p66rPKBiS6wlCHnErtBKJN8Xcd-j2078Jw4PQ8BNThpzTo74z1wZtWIas_zd93T91POYA7j",
+                    "layer_parameters": [
+                      {
+                        "key": "um",
+                        "value": "1"
+                      }
+                    ]
+                  }
+                }
+              },
+              "title": "Action Park - 1985 (Boundary)",
+              "viewport": {
+                "lat_lon_alt_box": {
+                  "north": -31.868529504337005,
+                  "south": -31.870673536565125,
+                  "east": 115.85728213383449,
+                  "west": 115.8549699084786
+                },
+                "display_bounds": false
+              },
+              "visibility": "DEFAULT_OFF",
+              "full_extent": {
+                "lat_lon_alt_box": {
+                  "north": -31.868529504337005,
+                  "south": -31.870673536565125,
+                  "east": 115.85728213383449,
+                  "west": 115.8549699084786
+                }
+              }
+            },
+            {
+              "id": "09372590152434720789-10241040070073501780-4",
+              "type": "GOOGLE_MAPS_ENGINE",
+              "source": {
+                "google_maps_engine": {
+                  "sub_type": "IMAGE",
+                  "image_layer": {
+                    "asset_id": "09372590152434720789-00913315481290556980-4/60",
+                    "epoch": 2,
+                    "tile_height": 256,
+                    "tile_width": 256
+                  },
+                  "tile_auth_token": {
+                    "token": "CghTRjfYIie68hCI6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302728
+                  }
+                }
+              },
+              "title": "Action Park - 1985",
+              "viewport": {
+                "lat_lon_alt_box": {
+                  "north": -31.86676322755143,
+                  "south": -31.87216711722257,
+                  "east": 115.86041207885768,
+                  "west": 115.85243566710074
+                },
+                "display_bounds": false
+              },
+              "visibility": "DEFAULT_OFF",
+              "opacity": 100,
+              "full_extent": {
+                "lat_lon_alt_box": {
+                  "north": -31.86676322755143,
+                  "south": -31.87216711722257,
+                  "east": 115.86041207885768,
+                  "west": 115.85243566710074
+                }
+              }
+            },
+            {
+              "id": "09372590152434720789-11234669914943607485-4",
+              "type": "GOOGLE_MAPS_ENGINE",
+              "source": {
+                "google_maps_engine": {
+                  "sub_type": "VECTOR",
+                  "vector_layer": {
+                    "vector_layer_id": "o:ADRg3ZeCS3ll048rhf5BJA6wNm6NwgwzXtCVXgUUWUbo-p9J22kMlpVPRXpNEFkny8ZNWMMeNFkoBr9EzevDxucB",
+                    "layer_parameters": [
+                      {
+                        "key": "um",
+                        "value": "1"
+                      }
+                    ]
+                  }
+                }
+              },
+              "title": "Mandurah Castle Fun Park - 1985 (Boundary)",
+              "viewport": {
+                "lat_lon_alt_box": {
+                  "north": -32.54622625221274,
+                  "south": -32.54930366161597,
+                  "east": 115.71045147122999,
+                  "west": 115.70594522751739
+                },
+                "display_bounds": false
+              },
+              "visibility": "DEFAULT_OFF",
+              "full_extent": {
+                "lat_lon_alt_box": {
+                  "north": -32.54622625221274,
+                  "south": -32.54930366161597,
+                  "east": 115.71045147122999,
+                  "west": 115.70594522751739
+                }
+              }
+            },
+            {
+              "id": "09372590152434720789-03109805819006055425-4",
+              "type": "GOOGLE_MAPS_ENGINE",
+              "source": {
+                "google_maps_engine": {
+                  "sub_type": "IMAGE",
+                  "image_layer": {
+                    "asset_id": "09372590152434720789-00913315481290556980-4/62",
+                    "epoch": 2,
+                    "tile_height": 256,
+                    "tile_width": 256
+                  },
+                  "tile_auth_token": {
+                    "token": "CggWb-E3swdXtRCI6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302728
+                  }
+                }
+              },
+              "title": "Mandurah Castle Fun Park - 1985",
+              "viewport": {
+                "lat_lon_alt_box": {
+                  "north": -32.545231811692844,
+                  "south": -32.550645595655936,
+                  "east": 115.7118232455258,
+                  "west": 115.70377779366939
+                },
+                "display_bounds": false
+              },
+              "visibility": "DEFAULT_OFF",
+              "opacity": 100,
+              "full_extent": {
+                "lat_lon_alt_box": {
+                  "north": -32.545231811692844,
+                  "south": -32.550645595655936,
+                  "east": 115.7118232455258,
+                  "west": 115.70377779366939
+                }
+              }
+            },
+            {
+              "id": "09372590152434720789-04641736912633964370-4",
+              "type": "GOOGLE_MAPS_ENGINE",
+              "source": {
+                "google_maps_engine": {
+                  "sub_type": "VECTOR",
+                  "vector_layer": {
+                    "vector_layer_id": "o:ADRg3ZeXTjA0Lvy-UakR9R-d3GRLgHbDNx8ZIAuqTqNsgv-NAIfVCbTzKa8ljFDKmvuzWBd15DfshJL6-gn4IZKj",
+                    "layer_parameters": [
+                      {
+                        "key": "um",
+                        "value": "1"
+                      }
+                    ]
+                  }
+                }
+              },
+              "title": "Atlantis Marine Park - 1985 (Boundary)",
+              "viewport": {
+                "lat_lon_alt_box": {
+                  "north": -31.49378684649429,
+                  "south": -31.49853849053866,
+                  "east": 115.58870688823359,
+                  "west": 115.5833252819162
+                },
+                "display_bounds": false
+              },
+              "visibility": "DEFAULT_OFF",
+              "full_extent": {
+                "lat_lon_alt_box": {
+                  "north": -31.49378684649429,
+                  "south": -31.49853849053866,
+                  "east": 115.58870688823359,
+                  "west": 115.5833252819162
+                }
+              }
+            },
+            {
+              "id": "09372590152434720789-13721507065420696278-4",
+              "type": "GOOGLE_MAPS_ENGINE",
+              "source": {
+                "google_maps_engine": {
+                  "sub_type": "IMAGE",
+                  "image_layer": {
+                    "asset_id": "09372590152434720789-00913315481290556980-4/64",
+                    "epoch": 2,
+                    "tile_height": 256,
+                    "tile_width": 256
+                  },
+                  "tile_auth_token": {
+                    "token": "CghhmJ7K_1ThRRCI6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302728
+                  }
+                }
+              },
+              "title": "Atlantis Marine Park - 1985",
+              "viewport": {
+                "lat_lon_alt_box": {
+                  "north": -31.491856250341698,
+                  "south": -31.50161331268665,
+                  "east": 115.59279206671016,
+                  "west": 115.57849545820686
+                },
+                "display_bounds": false
+              },
+              "visibility": "DEFAULT_OFF",
+              "opacity": 100,
+              "full_extent": {
+                "lat_lon_alt_box": {
+                  "north": -31.491856250341698,
+                  "south": -31.50161331268665,
+                  "east": 115.59279206671016,
+                  "west": 115.57849545820686
                 }
               }
             }
@@ -1434,7 +2358,7 @@
             "google_maps_engine": {
               "sub_type": "VECTOR",
               "vector_layer": {
-                "vector_layer_id": "o:ANVwnM2lqVb4BS5Itof4KCiwwiawehJDJa-B6ZwIBM7okiaNz3Rr7xs7K6f7IgqTqh3oCBrw303pkMXpweos0lQX",
+                "vector_layer_id": "o:ADRg3ZeMG87iIWtkylcAyB63XQ3G6K1JZRSAwN6lWuUp3aNvUliEy54qWZqm1Xrbo0vyEvi-XPiV8tVeN1ur5bpe",
                 "layer_parameters": [
                   {
                     "key": "um",
@@ -1471,7 +2395,7 @@
             "google_maps_engine": {
               "sub_type": "VECTOR",
               "vector_layer": {
-                "vector_layer_id": "o:ANVwnM34w1mQHybfPaWPDJZmTgi9pRHyxg-AJfT8cc0jXouXxw0Ltx-4uandb83e1fggBjv1w7DXjnuZSpOTlqmE",
+                "vector_layer_id": "o:ADRg3ZeRHEEQUCplJ1ocdGGQ2VAsqh5PlVBbx6J5WGAv9SgzvNcAYL6kTwqqeeBE3BlRJAdUPVi91R6spkTSmWeq",
                 "layer_parameters": [
                   {
                     "key": "um",
@@ -1534,14 +2458,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/44",
+                "asset_id": "09372590152434720789-00913315481290556980-4/68",
                 "epoch": 3,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "Cghut2MjJhMN6BDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "CgjPvod3wLUVIRCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -1573,14 +2497,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/45",
-                "epoch": 2,
+                "asset_id": "09372590152434720789-00913315481290556980-4/69",
+                "epoch": 3,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "Cgj-IV-tSYWKrRDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "CgjH0Q_Zc46zOBCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -1612,14 +2536,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/46",
+                "asset_id": "09372590152434720789-00913315481290556980-4/70",
                 "epoch": 4,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "CggWV5wDRXMcNhDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "CggI-zMGHitZ7RCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -1651,14 +2575,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/47",
+                "asset_id": "09372590152434720789-00913315481290556980-4/71",
                 "epoch": 2,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "CgiY4SCSrvZE9xDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "Cgh1gpVtZpD9-hCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -1690,14 +2614,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/48",
-                "epoch": 2,
+                "asset_id": "09372590152434720789-00913315481290556980-4/72",
+                "epoch": 3,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "CggZLxOeS-IbFxDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "CgjVBK5-VcSlwxCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -1729,14 +2653,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/49",
+                "asset_id": "09372590152434720789-00913315481290556980-4/73",
                 "epoch": 4,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "Cgg_PvQYIM71sBDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "Cgju5hOFpHCX0hCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -1768,14 +2692,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/50",
+                "asset_id": "09372590152434720789-00913315481290556980-4/74",
                 "epoch": 4,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "CggJKn9mkGBN8BDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "CghQcaPKfjqAyRCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -1807,14 +2731,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/51",
+                "asset_id": "09372590152434720789-00913315481290556980-4/75",
                 "epoch": 3,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "Cgh9O4xfYkqtdRDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "CgiJs_xZ4DtEtRCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -1846,14 +2770,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/52",
+                "asset_id": "09372590152434720789-00913315481290556980-4/76",
                 "epoch": 4,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "Cgivq8SX29cYJBDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "Cggzn2JvMZi8ghCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -1885,14 +2809,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/53",
+                "asset_id": "09372590152434720789-00913315481290556980-4/77",
                 "epoch": 4,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "CgiWfZX5awa7pBDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "CgiSbfB1bFqEJBCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -1924,14 +2848,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/54",
+                "asset_id": "09372590152434720789-00913315481290556980-4/78",
                 "epoch": 3,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "CgiBq8W4MSg_WRDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "CghNtHJRR3GHzRCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -1963,14 +2887,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/55",
+                "asset_id": "09372590152434720789-00913315481290556980-4/79",
                 "epoch": 3,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "Cgg_cw3UMztirhDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "Cgiggokpq2VPmxCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -2002,14 +2926,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/56",
-                "epoch": 2,
+                "asset_id": "09372590152434720789-00913315481290556980-4/80",
+                "epoch": 3,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "CgjvBr1avs11aBDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "CgiU29J1KJwDWxCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -2041,14 +2965,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/57",
+                "asset_id": "09372590152434720789-00913315481290556980-4/81",
                 "epoch": 3,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "CghyLZE5QuWK8xDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "Cgjb9DtYNEjgphCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -2080,14 +3004,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/58",
-                "epoch": 2,
+                "asset_id": "09372590152434720789-00913315481290556980-4/82",
+                "epoch": 4,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "CgiQfmQkOPcX1hDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "Cgge8BuekVoQeBCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -2119,14 +3043,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/59",
+                "asset_id": "09372590152434720789-00913315481290556980-4/83",
                 "epoch": 2,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "CgjD-um5x7n9eRDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "CghW5gJ9btDaJBCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -2158,14 +3082,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/60",
+                "asset_id": "09372590152434720789-00913315481290556980-4/84",
                 "epoch": 2,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "CggsL4mWlMTdexDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "CgjQF5CC2u2SCRCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -2197,14 +3121,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/61",
+                "asset_id": "09372590152434720789-00913315481290556980-4/85",
                 "epoch": 2,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "CgjBgAOgLBUdJBDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "CgjuOZJb3-q1QRCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -2236,14 +3160,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/62",
+                "asset_id": "09372590152434720789-00913315481290556980-4/86",
                 "epoch": 2,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "Cght9PPish5QRxDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "Cgjk7HRUHNB5QBCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -2275,14 +3199,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/63",
+                "asset_id": "09372590152434720789-00913315481290556980-4/87",
                 "epoch": 2,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "CgiBz-m4uYaaFxDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "Cgj9Yc5pw5VKQRCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -2314,14 +3238,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/64",
+                "asset_id": "09372590152434720789-00913315481290556980-4/88",
                 "epoch": 2,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "Cgh-zcmmNtt9QBDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "CggHBihimg_I0xCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -2353,14 +3277,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/65",
+                "asset_id": "09372590152434720789-00913315481290556980-4/89",
                 "epoch": 2,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "CgiULZddj_xkqxDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "CgjoYkgCPrFtZhCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -2392,14 +3316,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/66",
+                "asset_id": "09372590152434720789-00913315481290556980-4/90",
                 "epoch": 2,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "Cgi0rtt_EeGZlhDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "CggzRd5tTpKnyxCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -2431,14 +3355,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/67",
+                "asset_id": "09372590152434720789-00913315481290556980-4/91",
                 "epoch": 2,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "Cgj045yEj_DhxxDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "CghYYzKha4L3iRCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -2470,14 +3394,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/68",
+                "asset_id": "09372590152434720789-00913315481290556980-4/92",
                 "epoch": 2,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "CgiOUXAzwz1XqhDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "Cgjv9hIuywqPFBCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -2509,14 +3433,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/69",
+                "asset_id": "09372590152434720789-00913315481290556980-4/93",
                 "epoch": 2,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "Cgjyd2nEJC_9oxDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "CggaHdemg9usYBCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -2548,14 +3472,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/70",
+                "asset_id": "09372590152434720789-00913315481290556980-4/94",
                 "epoch": 2,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "Cgh5FIYNg9aajxDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "CggpPlD-cRuwqhCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -2587,14 +3511,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/71",
+                "asset_id": "09372590152434720789-00913315481290556980-4/95",
                 "epoch": 2,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "Cgi4TDoLBdcWdhDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "CgjYMb_jNCMpTRCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -2626,14 +3550,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/72",
+                "asset_id": "09372590152434720789-00913315481290556980-4/96",
                 "epoch": 2,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "Cgj_Uu7am-tI4RDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "CgjPCPsw65Sy1hCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -2665,14 +3589,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/73",
+                "asset_id": "09372590152434720789-00913315481290556980-4/97",
                 "epoch": 2,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "Cgi0nbVzVrWwuhDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "Cgj-9gHMW6uDQhCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -2704,14 +3628,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/74",
+                "asset_id": "09372590152434720789-00913315481290556980-4/98",
                 "epoch": 4,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "CghHmdEmQlbDwxDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "CggqUU3W5FqZIxCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -2743,14 +3667,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/75",
+                "asset_id": "09372590152434720789-00913315481290556980-4/99",
                 "epoch": 2,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "Cgg61_3Fj41qDBDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "Cghetn5xIEMIuhCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -2782,14 +3706,14 @@
             "google_maps_engine": {
               "sub_type": "IMAGE",
               "image_layer": {
-                "asset_id": "09372590152434720789-00913315481290556980-4/76",
+                "asset_id": "09372590152434720789-00913315481290556980-4/100",
                 "epoch": 2,
                 "tile_height": 256,
                 "tile_width": 256
               },
               "tile_auth_token": {
-                "token": "CghpCUDgiFimtxDhjtSiBQ\u003d\u003d",
-                "auth_token_expiration_ms": 1414858593
+                "token": "Cgia_W8XlcRUghCJ6fyqBQ\u003d\u003d",
+                "auth_token_expiration_ms": 1432302729
               }
             }
           },
@@ -2825,14 +3749,14 @@
                 "google_maps_engine": {
                   "sub_type": "IMAGE",
                   "image_layer": {
-                    "asset_id": "09372590152434720789-00913315481290556980-4/78",
+                    "asset_id": "09372590152434720789-00913315481290556980-4/102",
                     "epoch": 5,
                     "tile_height": 256,
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "CgjQ55UZPZQ-ohDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "CgjGEnKc_R21KhCJ6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302729
                   }
                 }
               },
@@ -2864,14 +3788,14 @@
                 "google_maps_engine": {
                   "sub_type": "IMAGE",
                   "image_layer": {
-                    "asset_id": "09372590152434720789-00913315481290556980-4/79",
+                    "asset_id": "09372590152434720789-00913315481290556980-4/103",
                     "epoch": 5,
                     "tile_height": 256,
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "CgjR6UZnXONI9BDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "CgjdhiqMoRbUPRCJ6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302729
                   }
                 }
               },
@@ -2903,14 +3827,14 @@
                 "google_maps_engine": {
                   "sub_type": "IMAGE",
                   "image_layer": {
-                    "asset_id": "09372590152434720789-00913315481290556980-4/80",
+                    "asset_id": "09372590152434720789-00913315481290556980-4/104",
                     "epoch": 5,
                     "tile_height": 256,
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "CggApOrYrNPzhxDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "CggDjRz1cADPdBCJ6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302729
                   }
                 }
               },
@@ -2942,14 +3866,14 @@
                 "google_maps_engine": {
                   "sub_type": "IMAGE",
                   "image_layer": {
-                    "asset_id": "09372590152434720789-00913315481290556980-4/81",
+                    "asset_id": "09372590152434720789-00913315481290556980-4/105",
                     "epoch": 5,
                     "tile_height": 256,
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "CgjkbAKXArWtPBDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "CggTtznan9HYjhCJ6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302729
                   }
                 }
               },
@@ -2981,14 +3905,14 @@
                 "google_maps_engine": {
                   "sub_type": "IMAGE",
                   "image_layer": {
-                    "asset_id": "09372590152434720789-00913315481290556980-4/82",
+                    "asset_id": "09372590152434720789-00913315481290556980-4/106",
                     "epoch": 5,
                     "tile_height": 256,
                     "tile_width": 256
                   },
                   "tile_auth_token": {
-                    "token": "CgjgKmVQVhW-wRDhjtSiBQ\u003d\u003d",
-                    "auth_token_expiration_ms": 1414858593
+                    "token": "Cgh9UA3AcgvM8BCJ6fyqBQ\u003d\u003d",
+                    "auth_token_expiration_ms": 1432302729
                   }
                 }
               },
@@ -3068,7 +3992,7 @@
             "google_maps_engine": {
               "sub_type": "VECTOR",
               "vector_layer": {
-                "vector_layer_id": "o:ANVwnM1f_tNvc4GR4Jbdjy7XCqm3_0buph-WWupTr0GfDNXKEZpoTHpu4lt8-Os49-9nQueltwdxkjQV5yRkK7zS",
+                "vector_layer_id": "o:ADRg3ZeT3F8R-kVkT27GOy6BSsgnMrBFrMZdj13bhbcHXttGvIs1jwvTDsicudGGb98upC2DRX56VWrpH6Wk_2En",
                 "layer_parameters": [
                   {
                     "key": "um",
@@ -3105,7 +4029,7 @@
             "google_maps_engine": {
               "sub_type": "VECTOR",
               "vector_layer": {
-                "vector_layer_id": "o:ANVwnM2w4QNC486wyfILLi6x9qSVrOvugIpqY9jw3E2qpAAKnk9mTZOyUDOVddMixVH0RvaVPBpzdQr1mWh1GvHtOHxfhrsMUFz9mGhzE8X5XBk01A",
+                "vector_layer_id": "o:ADRg3ZcVsIcMLpVeupM8ySg7SNuB43bx9JEzoSJOSL3QcBdjOPotYRSHSxqbzpAHsXW7yPrtrsh1Ua_KLgDzrrX_tDL7R2vhofD4WvrG6xYQ2Yx9TA",
                 "layer_parameters": [
                   {
                     "key": "um",
@@ -3142,7 +4066,7 @@
             "google_maps_engine": {
               "sub_type": "VECTOR",
               "vector_layer": {
-                "vector_layer_id": "o:ANVwnM3Rb2znk7mCN1JNgw9NhV1ClaqH2MOWoewHswSny6N-475ySql4OZpyVvpJjRqII3Bfi6fdXtk4Mipzl6vg",
+                "vector_layer_id": "o:ADRg3Ze9acVSpONpg_GsR_2czsGmUPvmtq37jkYsLc7yXWlRz5pm8bInimXQZaUPPgPtAkm3q_tvmipZHZcBaLI0",
                 "layer_parameters": [
                   {
                     "key": "um",
@@ -3157,7 +4081,7 @@
             "lat_lon_alt_box": {
               "north": -10.412389861093423,
               "south": -35.24185027551595,
-              "east": 129.00192884356503,
+              "east": 129.00191874337168,
               "west": 96.81523027574728
             },
             "display_bounds": false
@@ -3167,7 +4091,7 @@
             "lat_lon_alt_box": {
               "north": -10.412389861093423,
               "south": -35.24185027551595,
-              "east": 129.00192884356503,
+              "east": 129.00191874337168,
               "west": 96.81523027574728
             }
           }
@@ -3179,7 +4103,7 @@
             "google_maps_engine": {
               "sub_type": "VECTOR",
               "vector_layer": {
-                "vector_layer_id": "o:ANVwnM1zi3aRjg74KvMZq1zqf8mQtUzyd1YYrVfrTcFQ6QAS1g9Id9MSJ5i7WSHlZaP3fygCobQ2V2LAydn8VEsf",
+                "vector_layer_id": "o:ADRg3ZfG21nYjeTLkqVcNGrYKS72jWQ4gwziRnfaoTWn62L5LWDpsUK92FZEUnBcsQAKQyrHDBQlT-mZ8R_XrdO8",
                 "layer_parameters": [
                   {
                     "key": "um",
@@ -3194,7 +4118,7 @@
             "lat_lon_alt_box": {
               "north": -10.412389861093423,
               "south": -35.13506041424372,
-              "east": 129.00192884356503,
+              "east": 129.00191874337168,
               "west": 96.81523027574728
             },
             "display_bounds": false
@@ -3204,8 +4128,45 @@
             "lat_lon_alt_box": {
               "north": -10.412389861093423,
               "south": -35.13506041424372,
-              "east": 129.00192884356503,
+              "east": 129.00191874337168,
               "west": 96.81523027574728
+            }
+          }
+        },
+        {
+          "id": "09372590152434720789-01681829215165172017-4",
+          "type": "GOOGLE_MAPS_ENGINE",
+          "source": {
+            "google_maps_engine": {
+              "sub_type": "VECTOR",
+              "vector_layer": {
+                "vector_layer_id": "o:ADRg3ZdrrNt0hCpPmnMYGPuAC0KbJmBKlZ8D9T71EebyAfmqMSZRLMvKyd_xajfVc0J0BxXU151Z7nDf53iNl4nd",
+                "layer_parameters": [
+                  {
+                    "key": "um",
+                    "value": "1"
+                  }
+                ]
+              }
+            }
+          },
+          "title": "Proposed LGA Boundaries",
+          "viewport": {
+            "lat_lon_alt_box": {
+              "north": -31.455132473021024,
+              "south": -32.802897540142624,
+              "east": 116.41514443372728,
+              "west": 115.44912494220557
+            },
+            "display_bounds": false
+          },
+          "visibility": "DEFAULT_OFF",
+          "full_extent": {
+            "lat_lon_alt_box": {
+              "north": -31.455132473021024,
+              "south": -32.802897540142624,
+              "east": 116.41514443372728,
+              "west": 115.44912494220557
             }
           }
         }
@@ -3240,423 +4201,13 @@
           "source": {},
           "sublayers": [
             {
-              "id": "09372590152434720789-17117034635333765496-4",
-              "type": "GOOGLE_MAPS_ENGINE",
-              "source": {
-                "google_maps_engine": {
-                  "sub_type": "VECTOR",
-                  "vector_layer": {
-                    "vector_layer_id": "o:ANVwnM3vXD1PjQJmQXSB4xRbZUHyMP0G1MMH3ml2BqxgcpR_OFxPOvzZ0g-KPXCRedgjFqOABrZ2gPGXTBLFpxyJ",
-                    "layer_parameters": [
-                      {
-                        "key": "um",
-                        "value": "1"
-                      }
-                    ]
-                  }
-                }
-              },
-              "title": "Overview Towns",
-              "viewport": {
-                "lat_lon_alt_box": {
-                  "north": -15.443039466666665,
-                  "south": -35.008089383333335,
-                  "east": 128.66617471666666,
-                  "west": 113.66150053333334
-                },
-                "display_bounds": false
-              },
-              "visibility": "DEFAULT_ON",
-              "full_extent": {
-                "lat_lon_alt_box": {
-                  "north": -15.443039466666665,
-                  "south": -35.008089383333335,
-                  "east": 128.66617471666666,
-                  "west": 113.66150053333334
-                }
-              }
-            },
-            {
-              "id": "09372590152434720789-10095236245215758894-4",
-              "type": "GOOGLE_MAPS_ENGINE",
-              "source": {
-                "google_maps_engine": {
-                  "sub_type": "VECTOR",
-                  "vector_layer": {
-                    "vector_layer_id": "o:ANVwnM1rG-yxktX3ftHUR5c3stEW5Lqnu9ExxeFCqgfnnAheh6jhynN_nG95eM4P6-OtUxBDr2ckdFyBKruRWsJj",
-                    "layer_parameters": [
-                      {
-                        "key": "um",
-                        "value": "1"
-                      }
-                    ]
-                  }
-                }
-              },
-              "title": "Towns",
-              "viewport": {
-                "lat_lon_alt_box": {
-                  "north": -10.413086450304661,
-                  "south": -35.18064680208562,
-                  "east": 128.9987877067165,
-                  "west": 96.81800791688954
-                },
-                "display_bounds": false
-              },
-              "visibility": "DEFAULT_ON",
-              "full_extent": {
-                "lat_lon_alt_box": {
-                  "north": -10.413086450304661,
-                  "south": -35.18064680208562,
-                  "east": 128.9987877067165,
-                  "west": 96.81800791688954
-                }
-              }
-            }
-          ],
-          "title": "Towns",
-          "viewport": {
-            "lat_lon_alt_box": {
-              "north": -10.413086450304661,
-              "south": -35.18064680208562,
-              "east": 128.9987877067165,
-              "west": 96.81800791688954
-            },
-            "display_bounds": false
-          },
-          "visibility": "DEFAULT_ON",
-          "list_item_type": "CHECK_HIDE_CHILDREN",
-          "full_extent": {
-            "lat_lon_alt_box": {
-              "north": -10.413086450304661,
-              "south": -35.18064680208562,
-              "east": 128.9987877067165,
-              "west": 96.81800791688954
-            }
-          }
-        },
-        {
-          "id": "09372590152434720789-05569269851064418199-4",
-          "type": "GOOGLE_MAPS_ENGINE",
-          "source": {
-            "google_maps_engine": {
-              "sub_type": "VECTOR",
-              "vector_layer": {
-                "vector_layer_id": "o:ANVwnM3Db8i_P-IFMtOEDgOCNXMs1SywJnimbTW3adm2yIHZHiQKoIEe1a6C8aREpCPP_xQVdaQNPkpsqjL0p-he",
-                "layer_parameters": [
-                  {
-                    "key": "um",
-                    "value": "1"
-                  }
-                ]
-              }
-            }
-          },
-          "title": "Education",
-          "viewport": {
-            "lat_lon_alt_box": {
-              "north": -10.413086450304661,
-              "south": -35.18064680208562,
-              "east": 128.9987877067165,
-              "west": 96.81800791688954
-            },
-            "display_bounds": false
-          },
-          "visibility": "DEFAULT_OFF",
-          "full_extent": {
-            "lat_lon_alt_box": {
-              "north": -10.413086450304661,
-              "south": -35.18064680208562,
-              "east": 128.9987877067165,
-              "west": 96.81800791688954
-            }
-          }
-        },
-        {
-          "id": "09372590152434720789-11858878718146342697-4",
-          "type": "GOOGLE_MAPS_ENGINE",
-          "source": {
-            "google_maps_engine": {
-              "sub_type": "VECTOR",
-              "vector_layer": {
-                "vector_layer_id": "o:ANVwnM0XjpPL42XivvoNt4oWDXHRLXP1ZwC8x_fELDK1BV-eb93WG4ac9gH51y2QWSuGqcVq2ZaFQmOpae8ldi_b",
-                "layer_parameters": [
-                  {
-                    "key": "um",
-                    "value": "1"
-                  }
-                ]
-              }
-            }
-          },
-          "title": "Health",
-          "viewport": {
-            "lat_lon_alt_box": {
-              "north": -10.413086450304661,
-              "south": -35.18064680208562,
-              "east": 128.9987877067165,
-              "west": 96.81800791688954
-            },
-            "display_bounds": false
-          },
-          "visibility": "DEFAULT_OFF",
-          "full_extent": {
-            "lat_lon_alt_box": {
-              "north": -10.413086450304661,
-              "south": -35.18064680208562,
-              "east": 128.9987877067165,
-              "west": 96.81800791688954
-            }
-          }
-        }
-      ],
-      "title": "Places",
-      "viewport": {
-        "lat_lon_alt_box": {
-          "north": -10.413086450304661,
-          "south": -35.18064680208562,
-          "east": 128.9987877067165,
-          "west": 96.81800791688954
-        },
-        "display_bounds": false
-      },
-      "visibility": "DEFAULT_ON",
-      "list_item_type": "CHECK",
-      "full_extent": {
-        "lat_lon_alt_box": {
-          "north": -10.413086450304661,
-          "south": -35.18064680208562,
-          "east": 128.9987877067165,
-          "west": 96.81800791688954
-        }
-      }
-    },
-    {
-      "type": "FOLDER",
-      "source": {},
-      "sublayers": [
-        {
-          "type": "FOLDER",
-          "source": {},
-          "sublayers": [
-            {
-              "type": "KML",
-              "source": {
-                "kml": {
-                  "url": "http://firewatch.landgate.wa.gov.au/kml/fhs_locate_last_0_72.kmz"
-                }
-              },
-              "title": "Landgate Firewatch - Fire Hotspots",
-              "viewport": {
-                "lat_lon_alt_box": {
-                  "north": 90.0,
-                  "south": -90.0,
-                  "east": 180.0,
-                  "west": -180.0
-                },
-                "display_bounds": false
-              },
-              "visibility": "DEFAULT_ON",
-              "full_extent": {
-                "lat_lon_alt_box": {
-                  "north": 90.0,
-                  "south": -90.0,
-                  "east": 180.0,
-                  "west": -180.0
-                }
-              }
-            }
-          ],
-          "title": "Landgate Firewatch - Fire Hotspots",
-          "visibility": "DEFAULT_OFF",
-          "list_item_type": "CHECK_HIDE_CHILDREN"
-        },
-        {
-          "id": "09372590152434720789-14137631282816320876-4",
-          "type": "GOOGLE_MAPS_ENGINE",
-          "source": {
-            "google_maps_engine": {
-              "sub_type": "VECTOR",
-              "vector_layer": {
-                "vector_layer_id": "o:ANVwnM2GWUIIuXCJu2cAXit2D_usNXCbDECSmq4L71n0gftgcmVT7HayZPopCpNTgJT_elMIRjP4em4OYT0g8oXE",
-                "layer_parameters": [
-                  {
-                    "key": "um",
-                    "value": "1"
-                  }
-                ]
-              }
-            }
-          },
-          "title": "Emergency Services",
-          "viewport": {
-            "lat_lon_alt_box": {
-              "north": -10.413086450304661,
-              "south": -35.18064680208562,
-              "east": 128.9987877067165,
-              "west": 96.81800791688954
-            },
-            "display_bounds": false
-          },
-          "visibility": "DEFAULT_OFF",
-          "full_extent": {
-            "lat_lon_alt_box": {
-              "north": -10.413086450304661,
-              "south": -35.18064680208562,
-              "east": 128.9987877067165,
-              "west": 96.81800791688954
-            }
-          }
-        }
-      ],
-      "title": "Emergency Services",
-      "viewport": {
-        "lat_lon_alt_box": {
-          "north": -10.413086450304661,
-          "south": -35.18064680208562,
-          "east": 128.9987877067165,
-          "west": 96.81800791688954
-        },
-        "display_bounds": false
-      },
-      "visibility": "DEFAULT_OFF",
-      "list_item_type": "CHECK",
-      "full_extent": {
-        "lat_lon_alt_box": {
-          "north": -10.413086450304661,
-          "south": -35.18064680208562,
-          "east": 128.9987877067165,
-          "west": 96.81800791688954
-        }
-      }
-    },
-    {
-      "type": "FOLDER",
-      "source": {},
-      "sublayers": [
-        {
-          "id": "09372590152434720789-02406381474707693508-4",
-          "type": "GOOGLE_MAPS_ENGINE",
-          "source": {
-            "google_maps_engine": {
-              "sub_type": "VECTOR",
-              "vector_layer": {
-                "vector_layer_id": "o:ANVwnM3QRXWDryq8_T_JDBmz7HQ9QFVaOhEY1cVQRvPGbmdkKMdcNIqmdnClal2xXAnwT0NqOvgC33R6WQaEjw0s",
-                "layer_parameters": [
-                  {
-                    "key": "um",
-                    "value": "1"
-                  }
-                ]
-              }
-            }
-          },
-          "title": "Public Transport Stops",
-          "viewport": {
-            "lat_lon_alt_box": {
-              "north": -15.770608333333334,
-              "south": -35.079225,
-              "east": 128.76440333333332,
-              "west": 113.63351
-            },
-            "display_bounds": false
-          },
-          "visibility": "DEFAULT_OFF",
-          "full_extent": {
-            "lat_lon_alt_box": {
-              "north": -15.770608333333334,
-              "south": -35.079225,
-              "east": 128.76440333333332,
-              "west": 113.63351
-            }
-          }
-        },
-        {
-          "id": "09372590152434720789-13313542664337428076-4",
-          "type": "GOOGLE_MAPS_ENGINE",
-          "source": {
-            "google_maps_engine": {
-              "sub_type": "VECTOR",
-              "vector_layer": {
-                "vector_layer_id": "o:ANVwnM0yxJBkr3TGHbzzc_EqxXQm06IE50-ReMwHuYf-GosfaU-UBYaMD-7AfhrCg1ABJYVUNZdOB6MAZEtYYkX0",
-                "layer_parameters": [
-                  {
-                    "key": "um",
-                    "value": "1"
-                  }
-                ]
-              }
-            }
-          },
-          "title": "Public Transport Routes",
-          "viewport": {
-            "lat_lon_alt_box": {
-              "north": -15.770558333333327,
-              "south": -35.08145166666668,
-              "east": 128.7648522222222,
-              "west": 113.6321494444444
-            },
-            "display_bounds": false
-          },
-          "visibility": "DEFAULT_OFF",
-          "full_extent": {
-            "lat_lon_alt_box": {
-              "north": -15.770558333333327,
-              "south": -35.08145166666668,
-              "east": 128.7648522222222,
-              "west": 113.6321494444444
-            }
-          }
-        },
-        {
-          "id": "09372590152434720789-13386986526085000102-4",
-          "type": "GOOGLE_MAPS_ENGINE",
-          "source": {
-            "google_maps_engine": {
-              "sub_type": "VECTOR",
-              "vector_layer": {
-                "vector_layer_id": "o:ANVwnM2VRPLQ1ZeKmKx5NkYIqGJ8bjaCbISR8riRXvpldY7Dwo7R3pKPAv9f2Y8Oj0u3qEJXCwE3yCk7Hf-vRT1K",
-                "layer_parameters": [
-                  {
-                    "key": "um",
-                    "value": "1"
-                  }
-                ]
-              }
-            }
-          },
-          "title": "Train Stations, Bus Stations, Ferries",
-          "viewport": {
-            "lat_lon_alt_box": {
-              "north": -20.148997126355468,
-              "south": -35.02811850657907,
-              "east": 127.97537552049707,
-              "west": 114.64788494768763
-            },
-            "display_bounds": false
-          },
-          "visibility": "DEFAULT_OFF",
-          "full_extent": {
-            "lat_lon_alt_box": {
-              "north": -20.148997126355468,
-              "south": -35.02811850657907,
-              "east": 127.97537552049707,
-              "west": 114.64788494768763
-            }
-          }
-        },
-        {
-          "type": "FOLDER",
-          "source": {},
-          "sublayers": [
-            {
               "id": "09372590152434720789-06883105892993557007-4",
               "type": "GOOGLE_MAPS_ENGINE",
               "source": {
                 "google_maps_engine": {
                   "sub_type": "VECTOR",
                   "vector_layer": {
-                    "vector_layer_id": "o:ANVwnM36FTEILnGD-CSp4Jcq3PEmUAaZvLnsqHHr_bd-vdF95LNUucuSiNsM5FfZdtVIPHvt2geAbRkeaVTzCpnM",
+                    "vector_layer_id": "o:ADRg3ZfbPIJneBe1EqGh2CTXTxQJzYsHJAoZm7MtKI_Z45956fD09efAdZ8JCXitEsV97b0otwu0d2CdxwSLfRBi",
                     "layer_parameters": [
                       {
                         "key": "um",
@@ -3709,13 +4260,161 @@
           }
         },
         {
+          "id": "09372590152434720789-16509799751275403975-4",
+          "type": "GOOGLE_MAPS_ENGINE",
+          "source": {
+            "google_maps_engine": {
+              "sub_type": "VECTOR",
+              "vector_layer": {
+                "vector_layer_id": "o:ADRg3ZcVJpfpkXYfxcre3cyOgQaKlcPJeAaIMEIQbsIb_oYOITUMkseD3tIuMFKzKyfE2765GHnLojAuPbmjBVNm",
+                "layer_parameters": [
+                  {
+                    "key": "um",
+                    "value": "1"
+                  }
+                ]
+              }
+            }
+          },
+          "title": "Proposed Roads",
+          "viewport": {
+            "lat_lon_alt_box": {
+              "north": -12.116654252796593,
+              "south": -35.0788311535664,
+              "east": 128.8089519214945,
+              "west": 96.89764203116937
+            },
+            "display_bounds": false
+          },
+          "visibility": "DEFAULT_OFF",
+          "full_extent": {
+            "lat_lon_alt_box": {
+              "north": -12.116654252796593,
+              "south": -35.0788311535664,
+              "east": 128.8089519214945,
+              "west": 96.89764203116937
+            }
+          }
+        },
+        {
+          "id": "09372590152434720789-14127290532664981344-4",
+          "type": "GOOGLE_MAPS_ENGINE",
+          "source": {
+            "google_maps_engine": {
+              "sub_type": "VECTOR",
+              "vector_layer": {
+                "vector_layer_id": "o:ADRg3ZdZwrhm4ROJdQPLFyNUmBHaOsbd6awK9PmAsOcJfkmb8ivUXaWXiTv5D211S4saY5HcQ6KHkBHw8nLlhEq9",
+                "layer_parameters": [
+                  {
+                    "key": "um",
+                    "value": "1"
+                  }
+                ]
+              }
+            }
+          },
+          "title": "Get The Bigger Picture Traffic Feed",
+          "viewport": {
+            "lat_lon_alt_box": {
+              "north": 90.0,
+              "south": -90.0,
+              "east": 180.0,
+              "west": -180.0
+            },
+            "display_bounds": false
+          },
+          "visibility": "DEFAULT_ON",
+          "full_extent": {
+            "lat_lon_alt_box": {
+              "north": 90.0,
+              "south": -90.0,
+              "east": 180.0,
+              "west": -180.0
+            }
+          }
+        },
+        {
+          "id": "09372590152434720789-02406381474707693508-4",
+          "type": "GOOGLE_MAPS_ENGINE",
+          "source": {
+            "google_maps_engine": {
+              "sub_type": "VECTOR",
+              "vector_layer": {
+                "vector_layer_id": "o:ADRg3ZfItjHBHiRSc_A1jOhjjLCUKynGUNqNU1J2KJnE3UfwIpEK8iIZMvkTADHrz7E8hmgGnNxclo6e27pf8knI",
+                "layer_parameters": [
+                  {
+                    "key": "um",
+                    "value": "1"
+                  }
+                ]
+              }
+            }
+          },
+          "title": "Public Transport Stops",
+          "viewport": {
+            "lat_lon_alt_box": {
+              "north": -15.770608333333334,
+              "south": -35.079225,
+              "east": 128.76440333333332,
+              "west": 113.63351
+            },
+            "display_bounds": false
+          },
+          "visibility": "DEFAULT_OFF",
+          "full_extent": {
+            "lat_lon_alt_box": {
+              "north": -15.770608333333334,
+              "south": -35.079225,
+              "east": 128.76440333333332,
+              "west": 113.63351
+            }
+          }
+        },
+        {
+          "id": "09372590152434720789-13313542664337428076-4",
+          "type": "GOOGLE_MAPS_ENGINE",
+          "source": {
+            "google_maps_engine": {
+              "sub_type": "VECTOR",
+              "vector_layer": {
+                "vector_layer_id": "o:ADRg3ZehQ13enYQQwZYToiyBfA514sLiXUxrgUmmVPYJQgDAJXzWJUuzW9f1jXzewQ4A58rROZXLdmwMMl0yg08o",
+                "layer_parameters": [
+                  {
+                    "key": "um",
+                    "value": "1"
+                  }
+                ]
+              }
+            }
+          },
+          "title": "Public Transport Routes",
+          "viewport": {
+            "lat_lon_alt_box": {
+              "north": -15.770558333333327,
+              "south": -35.08145166666668,
+              "east": 128.7648522222222,
+              "west": 113.6321494444444
+            },
+            "display_bounds": false
+          },
+          "visibility": "DEFAULT_OFF",
+          "full_extent": {
+            "lat_lon_alt_box": {
+              "north": -15.770558333333327,
+              "south": -35.08145166666668,
+              "east": 128.7648522222222,
+              "west": 113.6321494444444
+            }
+          }
+        },
+        {
           "id": "09372590152434720789-03791401111371610338-4",
           "type": "GOOGLE_MAPS_ENGINE",
           "source": {
             "google_maps_engine": {
               "sub_type": "VECTOR",
               "vector_layer": {
-                "vector_layer_id": "o:ANVwnM2QQe3Bht7kjpCD0ai6kRv7SRHnIMj_COm29TscVjZ6zV4ptrHEQBsZZpA3y_8gK27-vB-W8Q7ibZrvIxTS",
+                "vector_layer_id": "o:ADRg3ZdyWTCEk6hchE-UU6secwJAnnIsQK-zO8vVVMOFajQ6GcwlGfeDZDk7TOyHb6sxmsaUCaqOnKgQ7YovsI1A",
                 "layer_parameters": [
                   {
                     "key": "um",
@@ -3756,7 +4455,7 @@
             "google_maps_engine": {
               "sub_type": "VECTOR",
               "vector_layer": {
-                "vector_layer_id": "o:ANVwnM0vHo9idiKuX1mstqU8AtPa6CwcyRLDNk-_zIjH4xXbPOiS09xD1NiCMopaMNr6XqVbHFKOmOAC7l_P-Gft",
+                "vector_layer_id": "o:ADRg3ZfTmP5cjMm885C_EIW4KGyyCEPpDxptOS_G1vVWVsvjOs48a9Kj0NXKzAG8Rc4Ku_Id7vAZSysiwuM_EjaR",
                 "layer_parameters": [
                   {
                     "key": "um",
@@ -3785,15 +4484,52 @@
               "west": 113.61656916
             }
           }
+        },
+        {
+          "id": "09372590152434720789-14260108040800896355-4",
+          "type": "GOOGLE_MAPS_ENGINE",
+          "source": {
+            "google_maps_engine": {
+              "sub_type": "VECTOR",
+              "vector_layer": {
+                "vector_layer_id": "o:ADRg3ZfOkNMA468vhBLqmBMTGb0YMgprTZmfvqwPKyLxavVeiz1P7VlRFCcd1YHguBlcOFFPt_8YFGaYCr0PA01S",
+                "layer_parameters": [
+                  {
+                    "key": "um",
+                    "value": "1"
+                  }
+                ]
+              }
+            }
+          },
+          "title": "Train Stations, Bus Stations, Ferries",
+          "viewport": {
+            "lat_lon_alt_box": {
+              "north": -16.12798182,
+              "south": -35.02811853,
+              "east": 128.30706576,
+              "west": 114.11967096
+            },
+            "display_bounds": false
+          },
+          "visibility": "DEFAULT_OFF",
+          "full_extent": {
+            "lat_lon_alt_box": {
+              "north": -16.12798182,
+              "south": -35.02811853,
+              "east": 128.30706576,
+              "west": 114.11967096
+            }
+          }
         }
       ],
       "title": "Transport",
       "viewport": {
         "lat_lon_alt_box": {
-          "north": -10.412142138999911,
-          "south": -35.12753865932251,
-          "east": 129.0911708110001,
-          "west": 96.81714090865677
+          "north": 90.0,
+          "south": -90.0,
+          "east": 180.0,
+          "west": -180.0
         },
         "display_bounds": false
       },
@@ -3801,10 +4537,346 @@
       "list_item_type": "CHECK",
       "full_extent": {
         "lat_lon_alt_box": {
-          "north": -10.412142138999911,
-          "south": -35.12753865932251,
-          "east": 129.0911708110001,
-          "west": 96.81714090865677
+          "north": 90.0,
+          "south": -90.0,
+          "east": 180.0,
+          "west": -180.0
+        }
+      }
+    },
+    {
+      "type": "FOLDER",
+      "source": {},
+      "sublayers": [
+        {
+          "type": "FOLDER",
+          "source": {},
+          "sublayers": [
+            {
+              "id": "09372590152434720789-17117034635333765496-4",
+              "type": "GOOGLE_MAPS_ENGINE",
+              "source": {
+                "google_maps_engine": {
+                  "sub_type": "VECTOR",
+                  "vector_layer": {
+                    "vector_layer_id": "o:ADRg3ZfzarWKLAxVcRmbJEth-vEg-CrtuQDzM5To-WnN-wV2lWlngaU5m3Nhl-l6CIYXlnrK7KbjIX9Rdl8nZOzd",
+                    "layer_parameters": [
+                      {
+                        "key": "um",
+                        "value": "1"
+                      }
+                    ]
+                  }
+                }
+              },
+              "title": "Overview Towns",
+              "viewport": {
+                "lat_lon_alt_box": {
+                  "north": -15.443039466666665,
+                  "south": -35.008089383333335,
+                  "east": 128.66617471666666,
+                  "west": 113.66150053333334
+                },
+                "display_bounds": false
+              },
+              "visibility": "DEFAULT_ON",
+              "full_extent": {
+                "lat_lon_alt_box": {
+                  "north": -15.443039466666665,
+                  "south": -35.008089383333335,
+                  "east": 128.66617471666666,
+                  "west": 113.66150053333334
+                }
+              }
+            },
+            {
+              "id": "09372590152434720789-10095236245215758894-4",
+              "type": "GOOGLE_MAPS_ENGINE",
+              "source": {
+                "google_maps_engine": {
+                  "sub_type": "VECTOR",
+                  "vector_layer": {
+                    "vector_layer_id": "o:ADRg3ZeY1Rv0DzuSEOrIpuc0-SNTk8De18866tJCg_EIhqrZRswxEH_32Nrv3McCA3PkyRKXu9xsovnOOiWey132",
+                    "layer_parameters": [
+                      {
+                        "key": "um",
+                        "value": "1"
+                      }
+                    ]
+                  }
+                }
+              },
+              "title": "Points of Interest",
+              "viewport": {
+                "lat_lon_alt_box": {
+                  "north": -10.41308649,
+                  "south": -35.180646839999994,
+                  "east": 128.99878776,
+                  "west": 96.81800795999999
+                },
+                "display_bounds": false
+              },
+              "visibility": "DEFAULT_ON",
+              "full_extent": {
+                "lat_lon_alt_box": {
+                  "north": -10.41308649,
+                  "south": -35.180646839999994,
+                  "east": 128.99878776,
+                  "west": 96.81800795999999
+                }
+              }
+            }
+          ],
+          "title": "Towns",
+          "viewport": {
+            "lat_lon_alt_box": {
+              "north": -10.41308649,
+              "south": -35.180646839999994,
+              "east": 128.99878776,
+              "west": 96.81800795999999
+            },
+            "display_bounds": false
+          },
+          "visibility": "DEFAULT_ON",
+          "list_item_type": "CHECK",
+          "full_extent": {
+            "lat_lon_alt_box": {
+              "north": -10.41308649,
+              "south": -35.180646839999994,
+              "east": 128.99878776,
+              "west": 96.81800795999999
+            }
+          }
+        },
+        {
+          "id": "09372590152434720789-15246531995839212277-4",
+          "type": "GOOGLE_MAPS_ENGINE",
+          "source": {
+            "google_maps_engine": {
+              "sub_type": "VECTOR",
+              "vector_layer": {
+                "vector_layer_id": "o:ADRg3Zcqw3qv2TXCBwiYjEcn6r2ew4j0at9fA9ahVG0MTpRTc-EPOy_JFkEDCL7x-fWnSnCFebK4-Zr8PPVFQ2ew",
+                "layer_parameters": [
+                  {
+                    "key": "um",
+                    "value": "1"
+                  }
+                ]
+              }
+            }
+          },
+          "title": "Get The Bigger Picture Sites",
+          "viewport": {
+            "lat_lon_alt_box": {
+              "north": -31.85654499999999,
+              "south": -32.07021099999999,
+              "east": 115.99274299999999,
+              "west": 115.81722699999997
+            },
+            "display_bounds": false
+          },
+          "visibility": "DEFAULT_ON",
+          "full_extent": {
+            "lat_lon_alt_box": {
+              "north": -31.85654499999999,
+              "south": -32.07021099999999,
+              "east": 115.99274299999999,
+              "west": 115.81722699999997
+            }
+          }
+        },
+        {
+          "id": "09372590152434720789-05569269851064418199-4",
+          "type": "GOOGLE_MAPS_ENGINE",
+          "source": {
+            "google_maps_engine": {
+              "sub_type": "VECTOR",
+              "vector_layer": {
+                "vector_layer_id": "o:ADRg3ZeXWknr2-He8SmDZglnt35l3Yw1PG4CeiUhawm2zhOTnyuBwKhMmO-LVVZzGOpILnCxWKKzLM_gv15qaF3Z",
+                "layer_parameters": [
+                  {
+                    "key": "um",
+                    "value": "1"
+                  }
+                ]
+              }
+            }
+          },
+          "title": "Education",
+          "viewport": {
+            "lat_lon_alt_box": {
+              "north": -10.41308649,
+              "south": -35.180646839999994,
+              "east": 128.99878776,
+              "west": 96.81800795999999
+            },
+            "display_bounds": false
+          },
+          "visibility": "DEFAULT_OFF",
+          "full_extent": {
+            "lat_lon_alt_box": {
+              "north": -10.41308649,
+              "south": -35.180646839999994,
+              "east": 128.99878776,
+              "west": 96.81800795999999
+            }
+          }
+        },
+        {
+          "id": "09372590152434720789-10393947643228706827-4",
+          "type": "GOOGLE_MAPS_ENGINE",
+          "source": {
+            "google_maps_engine": {
+              "sub_type": "VECTOR",
+              "vector_layer": {
+                "vector_layer_id": "o:ADRg3Zd3t2zuCzxGiDON4mhEtqz8IDTHxWRN3H1TUoBmCHCdtKnPg_rftD2Be90MdAqfPDge63cC8oRDkcqf2aTS",
+                "layer_parameters": [
+                  {
+                    "key": "um",
+                    "value": "1"
+                  }
+                ]
+              }
+            }
+          },
+          "title": "Health",
+          "viewport": {
+            "lat_lon_alt_box": {
+              "north": -10.41308649,
+              "south": -35.180646839999994,
+              "east": 128.99878776,
+              "west": 96.81800795999999
+            },
+            "display_bounds": false
+          },
+          "visibility": "DEFAULT_OFF",
+          "full_extent": {
+            "lat_lon_alt_box": {
+              "north": -10.41308649,
+              "south": -35.180646839999994,
+              "east": 128.99878776,
+              "west": 96.81800795999999
+            }
+          }
+        }
+      ],
+      "title": "Places",
+      "viewport": {
+        "lat_lon_alt_box": {
+          "north": -10.41308649,
+          "south": -35.180646839999994,
+          "east": 128.99878776,
+          "west": 96.81800795999999
+        },
+        "display_bounds": false
+      },
+      "visibility": "DEFAULT_ON",
+      "list_item_type": "CHECK",
+      "full_extent": {
+        "lat_lon_alt_box": {
+          "north": -10.41308649,
+          "south": -35.180646839999994,
+          "east": 128.99878776,
+          "west": 96.81800795999999
+        }
+      }
+    },
+    {
+      "type": "FOLDER",
+      "source": {},
+      "sublayers": [
+        {
+          "type": "FOLDER",
+          "source": {},
+          "sublayers": [
+            {
+              "type": "KML",
+              "source": {
+                "kml": {
+                  "url": "http://firewatch.landgate.wa.gov.au/kml/fhs_locate_last_0_72.kmz"
+                }
+              },
+              "title": "Landgate Firewatch - Fire Hotspots",
+              "viewport": {
+                "lat_lon_alt_box": {
+                  "north": 90.0,
+                  "south": -90.0,
+                  "east": 180.0,
+                  "west": -180.0
+                },
+                "display_bounds": false
+              },
+              "visibility": "DEFAULT_ON",
+              "full_extent": {
+                "lat_lon_alt_box": {
+                  "north": 90.0,
+                  "south": -90.0,
+                  "east": 180.0,
+                  "west": -180.0
+                }
+              }
+            }
+          ],
+          "title": "Landgate Firewatch - Fire Hotspots",
+          "visibility": "DEFAULT_OFF",
+          "list_item_type": "CHECK_HIDE_CHILDREN"
+        },
+        {
+          "id": "09372590152434720789-14137631282816320876-4",
+          "type": "GOOGLE_MAPS_ENGINE",
+          "source": {
+            "google_maps_engine": {
+              "sub_type": "VECTOR",
+              "vector_layer": {
+                "vector_layer_id": "o:ADRg3Zd4pSCTqtfykORPb18hcopXSn5kFUOodsbNCluwhpiTeK57Kg25TpLt6wpMiRSJHXQHJsy2anBhonI4Ic1q",
+                "layer_parameters": [
+                  {
+                    "key": "um",
+                    "value": "1"
+                  }
+                ]
+              }
+            }
+          },
+          "title": "Emergency Services",
+          "viewport": {
+            "lat_lon_alt_box": {
+              "north": -10.41308649,
+              "south": -35.180646839999994,
+              "east": 128.99878776,
+              "west": 96.81800795999999
+            },
+            "display_bounds": false
+          },
+          "visibility": "DEFAULT_OFF",
+          "full_extent": {
+            "lat_lon_alt_box": {
+              "north": -10.41308649,
+              "south": -35.180646839999994,
+              "east": 128.99878776,
+              "west": 96.81800795999999
+            }
+          }
+        }
+      ],
+      "title": "Emergency Services",
+      "viewport": {
+        "lat_lon_alt_box": {
+          "north": -10.41308649,
+          "south": -35.180646839999994,
+          "east": 128.99878776,
+          "west": 96.81800795999999
+        },
+        "display_bounds": false
+      },
+      "visibility": "DEFAULT_OFF",
+      "list_item_type": "CHECK",
+      "full_extent": {
+        "lat_lon_alt_box": {
+          "north": -10.41308649,
+          "south": -35.180646839999994,
+          "east": 128.99878776,
+          "west": 96.81800795999999
         }
       }
     },
@@ -3819,7 +4891,7 @@
             "google_maps_engine": {
               "sub_type": "VECTOR",
               "vector_layer": {
-                "vector_layer_id": "o:ANVwnM2G2ypGX3d1rIdcZhoEXBKxLU0tLY5qrLEk9AqA47KJWMC2fb4wXXaFIOggUFhZtfOJ9shVyllCwdobpfaJ",
+                "vector_layer_id": "o:ADRg3ZdqjGeYj-JoDdAYtmdEOTpUCzdgBBKkJCd7RIJW-CAz6af0II6pN9JruSaGwqv6SWTwMM_r8-YI4604syal",
                 "layer_parameters": [
                   {
                     "key": "um",
@@ -3860,7 +4932,7 @@
             "google_maps_engine": {
               "sub_type": "VECTOR",
               "vector_layer": {
-                "vector_layer_id": "o:ANVwnM3GT3Qcl0OzgESmWFeR2vXmsAK4Fl5jUrWgIjY1j3H3NvUmlCyCuH8pP2mNHZnVPHSwDFP4ZUxXlLCWY6Bc",
+                "vector_layer_id": "o:ADRg3ZcgnQjZAc7rUm5Wi4TbcPHmpJ1WfVZSEN7rPT5cbedyiLL6q-s1I02506DtDDGLE6PuNyC2uqCUchUAU3AW",
                 "layer_parameters": [
                   {
                     "key": "um",
@@ -3873,8 +4945,8 @@
           "title": "Mining Tenements",
           "viewport": {
             "lat_lon_alt_box": {
-              "north": -10.415345166691509,
-              "south": -35.033522303030146,
+              "north": -10.415345154584319,
+              "south": -35.033522306988274,
               "east": 129.01666666127286,
               "west": 105.53333332790065,
               "min_altitude": 0.0,
@@ -3885,8 +4957,8 @@
           "visibility": "DEFAULT_OFF",
           "full_extent": {
             "lat_lon_alt_box": {
-              "north": -10.415345166691509,
-              "south": -35.033522303030146,
+              "north": -10.415345154584319,
+              "south": -35.033522306988274,
               "east": 129.01666666127286,
               "west": 105.53333332790065,
               "min_altitude": 0.0,
@@ -3898,7 +4970,7 @@
       "title": "Mining \u0026 Resources",
       "viewport": {
         "lat_lon_alt_box": {
-          "north": -10.415345166691509,
+          "north": -10.415345154584319,
           "south": -35.11340999999993,
           "east": 129.01666666127286,
           "west": 105.53333332790065
@@ -3909,7 +4981,7 @@
       "list_item_type": "CHECK",
       "full_extent": {
         "lat_lon_alt_box": {
-          "north": -10.415345166691509,
+          "north": -10.415345154584319,
           "south": -35.11340999999993,
           "east": 129.01666666127286,
           "west": 105.53333332790065
@@ -3927,7 +4999,7 @@
             "google_maps_engine": {
               "sub_type": "VECTOR",
               "vector_layer": {
-                "vector_layer_id": "o:ANVwnM2I23G3j51KauK5B3NCXDawAwaQ0L8R8TVMlDi8N1gm_fwV2eur-mjZkj3a0ji-sUurTOP5RaZuDTwsk4oU",
+                "vector_layer_id": "o:ADRg3Zfg3eXQYql15SFFCAfzO7_j1RWuYh7fdL4U7g7CjRvgDDDZtkJBbV5pgwCYbmF2n44MOCqrJyF6zAA1Zh-q",
                 "layer_parameters": [
                   {
                     "key": "um",
@@ -3964,7 +5036,7 @@
             "google_maps_engine": {
               "sub_type": "VECTOR",
               "vector_layer": {
-                "vector_layer_id": "o:ANVwnM13yMXdj_DDvExFD_tMYnUdx50DuE9uzPLPHRr621jbiWZGLpACLEYmYH_swrpfdcOmG9dbtXomyqHrckyl",
+                "vector_layer_id": "o:ADRg3Zd5mf6gNmJ_XHxaypkmX2y-_R4_P0qtEJRmnOlSY3we9mp9BBz_QReMbODv6P6NMhU6aYfWj522OgP4079_",
                 "layer_parameters": [
                   {
                     "key": "um",
@@ -4001,7 +5073,7 @@
             "google_maps_engine": {
               "sub_type": "VECTOR",
               "vector_layer": {
-                "vector_layer_id": "o:ANVwnM2VRzG8sVJ8rsduFHMdmjXw4_PUWtqracLiSK3uo66ghiUXnZ7bZMyQfs1tVjl-rHqN8bog4CLuUFr02RO-",
+                "vector_layer_id": "o:ADRg3ZdRoOotlolB06G6qFE2gU2wdp9lPe2jiXedGKJ31kVb46ulz7iTATw1_8QVZBra6x9FTW2pXadGrjRNTp5K",
                 "layer_parameters": [
                   {
                     "key": "um",
@@ -4038,7 +5110,7 @@
             "google_maps_engine": {
               "sub_type": "VECTOR",
               "vector_layer": {
-                "vector_layer_id": "o:ANVwnM0YGNFc8-bgPru0p9sF0ZOYJq9YM5JPkMWGatBffgGo5Als3WBrfHkuAUd76KL2qUMZlFNdKDMpb6AOerjB",
+                "vector_layer_id": "o:ADRg3Zc2Q34MEUH5Oog_bJ-LzLvCNXELeME_KazUl1oJ7kKopyBP7OMiU8pTzdfyFtG42p73d24Qvjy1x1jAtTnp",
                 "layer_parameters": [
                   {
                     "key": "um",
@@ -4075,7 +5147,7 @@
             "google_maps_engine": {
               "sub_type": "VECTOR",
               "vector_layer": {
-                "vector_layer_id": "o:ANVwnM1mHVnCLDT-HRcNEf_i0B5hgNytBJD2-SC-vG0DnRP0D_b0DPYW3UeYG5U1BIKTosHD-4zFEXQvJNb9GbiJ",
+                "vector_layer_id": "o:ADRg3ZdXnXK5n_Yks_yALvAR70ccQat1_zYNaJ8ZY0I-svU29TwCEO6X3S-CHsP5pFhw7kh5bQxzgwbG4DNg64RA",
                 "layer_parameters": [
                   {
                     "key": "um",
@@ -4112,7 +5184,7 @@
             "google_maps_engine": {
               "sub_type": "VECTOR",
               "vector_layer": {
-                "vector_layer_id": "o:ANVwnM3Hxy3Q55JrsKHdXY4KN28O3Vij_aii1MoQrtKW5ouB03w7n0HV3Xp6bkH-vb6USso6_4_0j8SJ7V9msAsq",
+                "vector_layer_id": "o:ADRg3Zebny_hA_jqO2bd38QhQOrIEODowMXPD6Q5my4orsS7bjmT3XAUMkmnwGSofzVXnlAG9tsHb0kpELQf6I_k",
                 "layer_parameters": [
                   {
                     "key": "um",
@@ -4175,7 +5247,7 @@
             "google_maps_engine": {
               "sub_type": "VECTOR",
               "vector_layer": {
-                "vector_layer_id": "o:ANVwnM3gTZHhDq-sLUdEjcx3r7X1_Ztug5CGdNwgvWhAz-NXJlYOeQ9h50UM0hflgF40OqibDToug_umufIaQcmE",
+                "vector_layer_id": "o:ADRg3ZfZShwWY0Q7eipHnSoWtQeX5jcCIT1XNuv3Tkp9ylvLq1Ar7kCoFnawTCFwTtxDNO1oqwYKhYFTPaHjvnw8",
                 "layer_parameters": [
                   {
                     "key": "um",
@@ -4216,7 +5288,7 @@
             "google_maps_engine": {
               "sub_type": "VECTOR",
               "vector_layer": {
-                "vector_layer_id": "o:ANVwnM2NyZK4UXorzhWay5aWhFk_ElTiG6UsWLocQeOfaXp5_8sYn8tdptRO1oadnvEi2S9ZdS1M8a1Vq7eTmfez",
+                "vector_layer_id": "o:ADRg3ZesmoWi3Zjs5Sm2zpiwXJEQ8r7U0B63gEgMU6xZm5sBTgYZipByyLAJ444Dc9JYXAan0vD-QUm7SjaTvqSm",
                 "layer_parameters": [
                   {
                     "key": "um",
@@ -4231,8 +5303,8 @@
             "lat_lon_alt_box": {
               "north": -10.414480198658488,
               "south": -35.068236349738235,
-              "east": 128.75400315127635,
-              "west": 105.6638479867246,
+              "east": 128.75543682440983,
+              "west": 105.57376275805223,
               "min_altitude": 0.0,
               "max_altitude": 0.0
             },
@@ -4243,8 +5315,8 @@
             "lat_lon_alt_box": {
               "north": -10.414480198658488,
               "south": -35.068236349738235,
-              "east": 128.75400315127635,
-              "west": 105.6638479867246,
+              "east": 128.75543682440983,
+              "west": 105.57376275805223,
               "min_altitude": 0.0,
               "max_altitude": 0.0
             }
@@ -4257,7 +5329,7 @@
             "google_maps_engine": {
               "sub_type": "VECTOR",
               "vector_layer": {
-                "vector_layer_id": "o:ANVwnM2BUYnzCc9HZCavtxLV6rsS7W5YbnUEuv6VpupjttLOjbgApB0xR9x-BgoEbG3Ppqi00KUumDjRtULpSPWx",
+                "vector_layer_id": "o:ADRg3Zft07rgNOfoxJi0Cls2oREBPJziizTQHBeiWZ1ahCAS7Y3GHIie_mD0y9F71pQTikiWHKgAalHdv96MINQe",
                 "layer_parameters": [
                   {
                     "key": "um",
@@ -4271,8 +5343,8 @@
           "viewport": {
             "lat_lon_alt_box": {
               "north": -10.414637522421321,
-              "south": -35.090320164950235,
-              "east": 128.7539099857652,
+              "south": -35.09703743271735,
+              "east": 128.7564377193407,
               "west": 105.66085493507033,
               "min_altitude": 0.0,
               "max_altitude": 0.0
@@ -4283,8 +5355,8 @@
           "full_extent": {
             "lat_lon_alt_box": {
               "north": -10.414637522421321,
-              "south": -35.090320164950235,
-              "east": 128.7539099857652,
+              "south": -35.09703743271735,
+              "east": 128.7564377193407,
               "west": 105.66085493507033,
               "min_altitude": 0.0,
               "max_altitude": 0.0
@@ -4298,7 +5370,7 @@
             "google_maps_engine": {
               "sub_type": "VECTOR",
               "vector_layer": {
-                "vector_layer_id": "o:ANVwnM0ZYNqvk4d0MjqpboZeT0m2NNRmvgUH8VpvwXBg3ZQhULIae8lk9AQHHd4XGMb2-sStkiCARAGraa7TsNWo",
+                "vector_layer_id": "o:ADRg3ZecPQySdHJuYmxOljxkK4hbXcVyA3YJaPRKEm0_pvdcF-InJJHJ69ZCi2CgmM6sWxhykjilU6Icq7ott2MT",
                 "layer_parameters": [
                   {
                     "key": "um",
@@ -4337,9 +5409,9 @@
       "viewport": {
         "lat_lon_alt_box": {
           "north": -10.41308993137048,
-          "south": -35.09393341576402,
+          "south": -35.09703743271735,
           "east": 128.75727445590707,
-          "west": 105.62817021280509
+          "west": 105.57376275805223
         },
         "display_bounds": false
       },
@@ -4348,9 +5420,9 @@
       "full_extent": {
         "lat_lon_alt_box": {
           "north": -10.41308993137048,
-          "south": -35.09393341576402,
+          "south": -35.09703743271735,
           "east": 128.75727445590707,
-          "west": 105.62817021280509
+          "west": 105.57376275805223
         }
       }
     }

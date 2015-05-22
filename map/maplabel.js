@@ -1,3 +1,5 @@
+// https://github.com/googlemaps/js-map-label
+
 /**
  * @license
  *
