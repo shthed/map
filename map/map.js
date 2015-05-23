@@ -1253,6 +1253,7 @@ function setheading() {
 }
 
 function headingchanged() {
+  if (!headingselect) return;
   heading = headingselect.value;
   if (map.getMapTypeId() == "Bing") {
     bingMapType = new google.maps.ImageMapType(bingMapOpt);
