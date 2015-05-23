@@ -587,7 +587,10 @@ function getMapsEngineWMTSMapType(layerid, name) {
 // https://mts1.googleapis.com/mapslt?hl=en-GB&lyrs=vdb%3Ao%3AANVwnM2ndWI_ys6mhS2sq0xRHwb7vhKfJUxpQkG9a_VakVpBW7FQ9CJKBER2O_gITg0ALhVZYbwvINT4SnApuWNU%7Cum%3A1%2Cvdb%3Ao%3AANVwnM15U3uhz1KFaZ5J2Dg34CWYz8mlSqqkpgKLzBnwGbWd_zDD18HzByqDYKwjcYShNsDN2pDaokAa7vbAfsRO%7Cum%3A1%2Cvdb%3Ao%3AANVwnM2_9zCaq--GsTLP84Ih0kaHjJQsQ-mMZi2UGhvdCicqihDKH0qPrAtSHhVmZaHbqrik8JyeR0dbMydfRDHJ%7Cum%3A1&x=26941&y=19448&z=15&w=256&h=256&source=apiv3&token=74055
 
 
+var toprightdiv;
+
 function createControls() {
+
   controlDiv = document.createElement('div');
   controlDiv.style.margin = '3px';
   controlDiv.style.cursor = 'pointer';
@@ -647,19 +650,19 @@ function createControls() {
   option.innerHTML = "West";
   headingselect.appendChild(option);
   controlDiv.appendChild(headingselect);
-  map.controls[google.maps.ControlPosition.RIGHT_TOP].push(controlDiv);
+  //map.controls[google.maps.ControlPosition.RIGHT_TOP].push(controlDiv);
 
-  var overlayDiv = document.createElement('div');
   overlayselect = document.createElement("select");
   overlayselect.className = "chosen-select";
   overlayselect.id = "overlayselect";
   overlayselect.multiple = true;
   overlayselect.setAttribute("data-placeholder", "Select overlay..");
   overlayselect.onchange = selectoverlays;
+  var overlayDiv = document.createElement('div');
   overlayDiv.appendChild(overlayselect);
-  map.controls[google.maps.ControlPosition.RIGHT_TOP].push(overlayDiv);
+  //map.controls[google.maps.ControlPosition.RIGHT_TOP].push(overlayDiv);
 
-  overlayDiv = document.createElement('div');
+  //overlayDiv = document.createElement('div');
   overlayopacity = document.createElement("input");
   overlayopacity.type = "range";
   overlayopacity.min = 0;
@@ -668,13 +671,32 @@ function createControls() {
   overlayopacity.value = 50;
   overlayopacity.onchange = setoverlayopacity;
   overlayopacity.oninput = setoverlayopacity;
-  overlayDiv.appendChild(overlayopacity);
-  map.controls[google.maps.ControlPosition.RIGHT_TOP].push(overlayDiv);
+  //overlayDiv.appendChild(overlayopacity);
+  //map.controls[google.maps.ControlPosition.RIGHT_TOP].push(overlayDiv);
 
+  toprightdiv = document.createElement('div');
+
+  // resize
+  if (window.innerWidth > 900) {
+    controlDiv.style.float = "right";
+    controlDiv.style.clear = "right";
+    toprightdiv.appendChild(controlDiv);
+  }
+  overlayDiv.style.float = "right";
+  overlayDiv.style.clear = "right";
+  toprightdiv.appendChild(overlayDiv);
+  overlayopacity.style.float = "right";
+  overlayopacity.style.clear = "right";
+  toprightdiv.appendChild(overlayopacity);
+  map.controls[google.maps.ControlPosition.RIGHT_TOP].push(toprightdiv);
+
+
+  // top left search input box
   searchInput = document.createElement("input");
   searchInput.type = "text";
-  searchInput.style.width = "300px";
-  searchInput.style.margin = "15px";
+  // resize
+  searchInput.style.width = ((window.innerWidth > 900) ? "300px" : window.innerWidth / 3 ) + "px";
+  searchInput.style.margin = "8px";
   searchInput.style.padding = "5px";
   searchInput.onclick = function() {
     this.select();
@@ -1206,8 +1228,15 @@ function createOverlaySelect() {
     parselayers(maprootJson.layers, overlayselect);
   }
 
+  // make it smaller if it doesnt fit  resize
+  log('offsetWidth:'+overlayselect.offsetWidth);
+  if (overlayselect.offsetWidth > window.innerWidth / 2) {
+    //overlayselect.style.width = window.getComputedStyle(overlayopacity).width;
+    overlayselect.style.width = (window.innerWidth / 2) + "px";
+  }
+  
   $(overlayselect).chosen({
-    width: "300px"
+    //width: "300px"
   });
   // auto resize chosen drop down window to fill window height
   $(overlayselect).chosen().on('chosen:showing_dropdown', function() {
@@ -1289,7 +1318,14 @@ function maptypechanged() {
 
 function mapidle() {
   saveview();
-  searchBox.setBounds(map.getBounds());
+  if (searchBox) {
+    searchBox.setBounds(map.getBounds());
+  }
+}
+
+function createui() {
+  createControls();
+  createOverlaySelect();
 }
 
 var isloadingview = false; // prevent saving the view while loading it
@@ -1562,18 +1598,20 @@ function initialize() {
   mapcanvas = document.getElementById("map_canvas");
   map = new google.maps.Map(mapcanvas, {
     mapTypeControlOptions: {
-      mapTypeIds: mapTypeIds
+      mapTypeIds: mapTypeIds,
+      style: window.innerWidth < 800 ? google.maps.MapTypeControlStyle.DROPDOWN_MENU : 0 // resize
     },
     rotateControl: true
   });
 
-  createControls();
-  createOverlaySelect();
+  //createControls();
+  //createOverlaySelect();
 
   google.maps.event.addListener(map, 'maptypeid_changed', maptypechanged);
   google.maps.event.addListener(map, 'tilt_changed', headingchanged);
   google.maps.event.addListener(map, 'zoom_changed', zoomchanged);
   google.maps.event.addListener(map, 'idle', mapidle);
+  google.maps.event.addListenerOnce(map, 'idle', createui);
 
   // install base layers
   for (layer in layers) {
